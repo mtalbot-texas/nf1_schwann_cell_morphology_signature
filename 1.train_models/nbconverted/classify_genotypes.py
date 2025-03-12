@@ -24,6 +24,7 @@ from sklearn.model_selection import StratifiedKFold
 from sklearn.preprocessing import LabelEncoder
 from sklearn.utils import parallel_backend
 
+
 # ## Find the root of the git repo on the host system
 
 # In[2]:
@@ -54,13 +55,42 @@ if root_dir is None:
 # In[3]:
 
 
-plate3df_path = pathlib.Path(root_dir / "nf1_painting_repo/3.processing_features/data/single_cell_profiles/Plate_3_sc_feature_selected.parquet").resolve(strict=True)
-plate3pdf_path = pathlib.Path(root_dir / "nf1_painting_repo/3.processing_features/data/single_cell_profiles/Plate_3_prime_sc_feature_selected.parquet").resolve(strict=True)
-plate5df_path = pathlib.Path(root_dir / "nf1_painting_repo/3.processing_features/data/single_cell_profiles/Plate_5_sc_feature_selected.parquet").resolve(strict=True)
+# OPTIONAL: If the data (within the cell painting directory) is stored in a different location, add location here
+repo_dir = pathlib.Path(root_dir / "/media/18tbdrive/1.Github_Repositories/nf1_schwann_cell_painting_data/")
+
+# Set data level
+data_level = "cleaned"
+
+# Main directory path (converted or cleaned data)
+if data_level == "cleaned":
+    data_dir = pathlib.Path(
+        repo_dir
+        / "3.processing_features/data/single_cell_profiles/cleaned_sc_profiles"
+    )
+else:
+    data_dir = pathlib.Path(
+        repo_dir
+        / "3.processing_features/data/single_cell_profiles"
+    )
+
+plate3df_path = pathlib.Path(data_dir / "Plate_3_sc_feature_selected.parquet").resolve(
+    strict=True
+)
+plate3pdf_path = pathlib.Path(
+    data_dir / "Plate_3_prime_sc_feature_selected.parquet"
+).resolve(strict=True)
+plate5df_path = pathlib.Path(data_dir / "Plate_5_sc_feature_selected.parquet").resolve(
+    strict=True
+)
 
 plate3df = pd.read_parquet(plate3df_path)
 plate3pdf = pd.read_parquet(plate3pdf_path)
 plate5df = pd.read_parquet(plate5df_path)
+
+print("Number of single-cells total per plate:")
+print("Plate 3:", plate3df.shape[0])
+print("Plate 3 prime:", plate3pdf.shape[0])
+print("Plate 5:", plate5df.shape[0])
 
 # Set the seed
 rng = np.random.default_rng(0)
@@ -78,7 +108,7 @@ data_path.mkdir(parents=True, exist_ok=True)
 # ## Splitting and Processing
 # Functions to split and process data
 
-# In[5]:
+# In[ ]:
 
 
 gene_column = "Metadata_genotype"
@@ -153,7 +183,7 @@ def store_pre_evaluation_data(_X, _y, _metadata, _datasplit):
     _datasplit: String
         Data split name.
     """
-
+    
     eval_data[f"probability_{probability_class}"].extend(logreg.predict_proba(_X)[:, 1].tolist())
     eval_data["datasplit"].extend([_datasplit] * _X.shape[0])
     eval_data["predicted_genotype"].extend(logreg.predict(_X).tolist())
@@ -383,7 +413,9 @@ store_pre_evaluation_data(X_test_shuf, y_test, testdf[meta_cols], "shuffled_test
 # In[16]:
 
 
-dump(logreg, f"{data_path}/trained_nf1_model.joblib")
-dump(le, f"{data_path}/trained_nf1_model_label_encoder.joblib")
-pd.DataFrame(eval_data).to_parquet(f"{data_path}/nf1_model_pre_evaluation_results.parquet")
+suffix = "_qc" if data_level == "cleaned" else ""
+
+dump(logreg, f"{data_path}/trained_nf1_model{suffix}.joblib")
+dump(le, f"{data_path}/trained_nf1_model_label_encoder{suffix}.joblib")
+pd.DataFrame(eval_data).to_parquet(f"{data_path}/nf1_model_pre_evaluation_results{suffix}.parquet")
 
