@@ -16,7 +16,6 @@ from sklearn.metrics import (
     accuracy_score,
     precision_recall_curve,
 )
-from typing import Tuple
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -26,18 +25,27 @@ import matplotlib.pyplot as plt
 # In[2]:
 
 
+# Set data type for the generalizability evaluation
+data_cleaned = "cleaned"
+
+# Set suffix for data files if using QC or cleaned data
+if data_cleaned == "cleaned":
+    suffix = "_qc"
+else:
+    suffix = ""
+
 # Path to folder holding model and encoder files
 model_dir = pathlib.Path("../1.train_models/data")
+
+# Load in the model encoder
+le = load(pathlib.Path(f"{model_dir}/trained_nf1_model_label_encoder{suffix}.joblib"))
+
+# Load in the model
+model = load(pathlib.Path(f"{model_dir}/trained_nf1_model{suffix}.joblib"))
 
 # Path to results directory
 results_dir = pathlib.Path("./results")
 results_dir.mkdir(exist_ok=True)
-
-# Load in the model encoder
-le = load(pathlib.Path(f"{model_dir}/trained_nf1_model_label_encoder.joblib"))
-
-# Load in the model
-model = load(pathlib.Path(f"{model_dir}/trained_nf1_model.joblib"))
 
 # Set the random seed
 rng = np.random.default_rng(0)
@@ -48,10 +56,17 @@ rng = np.random.default_rng(0)
 # In[3]:
 
 
+# Set directory to find the plate 6 data from based on data type
+directory = (
+    "single_cell_profiles/cleaned_sc_profiles"
+    if data_cleaned == "cleaned"
+    else "single_cell_profiles"
+)
+
 # Read in data from plate 6 with two cell lines
 plate6_df = pd.read_parquet(
     pathlib.Path(
-        "/media/18tbdrive/1.Github_Repositories/nf1_schwann_cell_painting_data/3.processing_features/data/single_cell_profiles/Plate_6_sc_normalized.parquet"
+        f"/media/18tbdrive/1.Github_Repositories/nf1_schwann_cell_painting_data/3.processing_features/data/{directory}/Plate_6_sc_normalized.parquet"
     )
 )
 
@@ -148,8 +163,17 @@ for data_type, data in data_dict.items():
 # Combine all dataframes
 combined_df = pd.concat(processed_dfs, axis=0).reset_index(drop=True)
 
-# Save to Parquet
-combined_df.to_parquet(f"{results_dir}/plate_6_single_cell_probabilities.parquet")
+# Save to Parquet with qc suffix if data is cleaned
+if data_cleaned == "cleaned":
+    output_file = (
+        pathlib.Path(results_dir) / "plate_6_single_cell_probabilities_qc.parquet"
+    )
+else:
+    output_file = (
+        pathlib.Path(results_dir) / "plate_6_single_cell_probabilities.parquet"
+    )
+
+combined_df.to_parquet(output_file)
 
 # Print shape and head of data
 print(combined_df.shape)
@@ -178,27 +202,40 @@ precision_recall_data = []
 for institution, df in institution_dfs.items():
     for data_type in ["final", "shuffled"]:  # Compute separately for both types
         # Subset for data type and remove the HET cells from evaluation
-        subset_df = df[(df["data_type"] == data_type) & (df["Metadata_genotype"] != "HET")]
+        subset_df = df[
+            (df["data_type"] == data_type) & (df["Metadata_genotype"] != "HET")
+        ]
 
         # Compute precision-recall curve
         precision, recall, _ = precision_recall_curve(
             subset_df["true_genotype"], subset_df["probability_WT"]
         )
-        
-        institution_results = pd.DataFrame({
-            "Precision": precision[:-1],  
-            "Recall": recall[:-1],        
-            "Metadata_Institution": institution,
-            "data_type": data_type,
-        })
-        
+
+        institution_results = pd.DataFrame(
+            {
+                "Precision": precision[:-1],
+                "Recall": recall[:-1],
+                "Metadata_Institution": institution,
+                "data_type": data_type,
+            }
+        )
+
         precision_recall_data.append(institution_results)
 
 # Combine all institution-based PR data
 precision_recall_df = pd.concat(precision_recall_data, ignore_index=True)
 
-# Save PR curve data to parquet file
-precision_recall_df.to_parquet(f"{results_dir}/plate6_precision_recall_final_model.parquet")
+# Save PR curve data to parquet file with qc suffix if data is cleaned
+if data_cleaned == "cleaned":
+    pr_curve_file = (
+        pathlib.Path(results_dir) / "plate6_precision_recall_final_model_qc.parquet"
+    )
+else:
+    pr_curve_file = (
+        pathlib.Path(results_dir) / "plate6_precision_recall_final_model.parquet"
+    )
+
+precision_recall_df.to_parquet(pr_curve_file)
 
 print(precision_recall_df.shape)
 precision_recall_df.head()
@@ -233,11 +270,14 @@ sns.lineplot(
     dashes=True,
 )
 
+# Set y-axis limits
+plt.ylim(0, 1)
+
 # Add labels and title
 plt.xlabel("Recall")
 plt.ylabel("Precision")
 plt.title("Precision vs Recall for Different Institutions and Data Types")
-plt.legend()
+plt.legend(loc="lower right", bbox_to_anchor=(1, 0))
 plt.show()
 
 
@@ -247,12 +287,20 @@ plt.show()
 
 
 # Calculate accuracy per institution and data type (final or shuffled) without the HET cells
-accuracy_per_group = combined_df[combined_df["Metadata_genotype"] != "HET"].groupby(
-    ["Metadata_Institution", "data_type"]
-).apply(lambda x: accuracy_score(x["true_genotype"], x["predicted_genotype"])).reset_index(name="accuracy")
+accuracy_per_group = (
+    combined_df[combined_df["Metadata_genotype"] != "HET"]
+    .groupby(["Metadata_Institution", "data_type"])
+    .apply(lambda x: accuracy_score(x["true_genotype"], x["predicted_genotype"]))
+    .reset_index(name="accuracy")
+)
 
-# Save accuracy data to parquet file
-accuracy_per_group.to_parquet(f"{results_dir}/plate6_accuracy_final_model.parquet")
+# Save accuracy data to parquet file with qc suffix if data is cleaned
+if data_cleaned == "cleaned":
+    accuracy_file = pathlib.Path(results_dir) / "plate6_accuracy_final_model_qc.parquet"
+else:
+    accuracy_file = pathlib.Path(results_dir) / "plate6_accuracy_final_model.parquet"
+
+accuracy_per_group.to_parquet(accuracy_file)
 
 accuracy_per_group
 
@@ -274,8 +322,12 @@ sns.barplot(
     x="data_type",
     y="accuracy",
     hue="Metadata_Institution",
-    palette="Dark2"
+    palette="Dark2",
+    errorbar=None,
 )
+
+# Set y-axis limits
+plt.ylim(0, 1)
 
 # Add labels and title
 plt.xlabel("Genotype")
@@ -291,9 +343,12 @@ plt.show()
 
 
 # Calculate accuracy per genotype, institution and data type (final or shuffled)
-accuracy_per_group = combined_df[combined_df["Metadata_genotype"] != "HET"].groupby(
-    ["Metadata_genotype","Metadata_Institution", "data_type"]
-).apply(lambda x: accuracy_score(x["true_genotype"], x["predicted_genotype"])).reset_index(name="accuracy")
+accuracy_per_group = (
+    combined_df[combined_df["Metadata_genotype"] != "HET"]
+    .groupby(["Metadata_genotype", "Metadata_Institution", "data_type"])
+    .apply(lambda x: accuracy_score(x["true_genotype"], x["predicted_genotype"]))
+    .reset_index(name="accuracy")
+)
 
 accuracy_per_group
 

@@ -25,8 +25,21 @@ from joblib import load
 results_dir = pathlib.Path("./results")
 results_dir.mkdir(exist_ok=True)
 
+# Set data type for the ks test evaluation
+data_type = "cleaned"
+
+# Set suffix for data files if using QC or cleaned data
+if data_type == "cleaned":
+    suffix = "_qc"
+else:
+    suffix = ""
+
 # Load in model
-model = load(pathlib.Path("../1.train_models/data/trained_nf1_model.joblib"))
+model = load(
+    pathlib.Path(f"../1.train_models/data/trained_nf1_model{suffix}.joblib").resolve(
+        strict=True
+    )
+)
 model_features = list(model.feature_names_in_)
 
 len(model_features)
@@ -37,10 +50,17 @@ len(model_features)
 # In[3]:
 
 
+# Set directory to find the plate 6 data from based on data type
+directory = (
+    "single_cell_profiles/cleaned_sc_profiles"
+    if data_type == "cleaned"
+    else "single_cell_profiles"
+)
+
 # Load in the normalized data
 plate_6_norm = pd.read_parquet(
     pathlib.Path(
-        "/media/18tbdrive/1.Github_Repositories/nf1_schwann_cell_painting_data/3.processing_features/data/single_cell_profiles/Plate_6_sc_normalized.parquet"
+        f"/media/18tbdrive/1.Github_Repositories/nf1_schwann_cell_painting_data/3.processing_features/data/{directory}/Plate_6_sc_normalized.parquet"
     )
 )
 
@@ -130,8 +150,17 @@ ks_test_results_norm_df = ks_test_results_norm_df[
     ks_test_results_norm_df["feature"].isin(model_features)
 ]
 
-# Save the results
-ks_test_results_norm_df.to_parquet(pathlib.Path(f"{results_dir}/ks_test_derivatives_results.parquet"))
+# Save the results with qc suffix if data is cleaned
+if data_type == "cleaned":
+    ks_test_results_file = (
+        pathlib.Path(results_dir) / "ks_test_derivatives_results_qc.parquet"
+    )
+else:
+    ks_test_results_file = (
+        pathlib.Path(results_dir) / "ks_test_derivatives_results.parquet"
+    )
+
+ks_test_results_norm_df.to_parquet(ks_test_results_file)
 
 # Display the updated DataFrame
 print(ks_test_results_norm_df.shape)
@@ -143,6 +172,8 @@ ks_test_results_norm_df.head()
 # In[8]:
 
 
-ks_test_results_norm_df = ks_test_results_norm_df.sort_values(by="feature_importances", ascending=False)
+ks_test_results_norm_df = ks_test_results_norm_df.sort_values(
+    by="feature_importances", ascending=False
+)
 ks_test_results_norm_df.head()
 
