@@ -205,6 +205,10 @@ kstest_results_file <- file.path("../../3.assess_generalizability/results/ks_tes
 
 kstest_results_df <- arrow::read_parquet(kstest_results_file)
 
+# Filter for genotype_comparison == "All"
+kstest_results_df <- kstest_results_df %>%
+    filter(genotype_comparison == "All")
+
 # Create a new column extracting the first part of 'feature' after the compartment
 kstest_results_df$feature_base <- sub("^[^_]+_", "", kstest_results_df$feature)
 
