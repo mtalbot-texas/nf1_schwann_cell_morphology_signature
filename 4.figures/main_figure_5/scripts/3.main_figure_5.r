@@ -54,7 +54,7 @@ top_feat_montage_min <- ggplot() +
 
 top_feat_montage_min
 
-second_top_feat_path_max = file.path("./mito_radial_feature_montage_max.png")
+second_top_feat_path_max = file.path("./actin_radial_feature_montage_max.png")
 second_top_feat_img_max = png::readPNG(second_top_feat_path_max)
 
 # Get the dimensions of the image
@@ -76,7 +76,7 @@ second_top_montage_max <- ggplot() +
 second_top_montage_max
 
 
-second_top_feat_path_min = file.path("./mito_radial_feature_montage_min.png")
+second_top_feat_path_min = file.path("./actin_radial_feature_montage_min.png")
 second_top_feat_img_min = png::readPNG(second_top_feat_path_min)
 
 # Get the dimensions of the image
@@ -100,23 +100,23 @@ second_top_montage_min
 
 top_row_montage <- (
    free(top_feat_montage_max) +
-   second_top_montage_max
-) + plot_layout(widths = c(1,1), guides = "collect")
+   second_top_montage_min
+) + plot_layout(widths = c(1.1,1), guides = "collect")
 
 top_row_montage
 
 
 bottom_row_montage <- (
    top_feat_montage_min +
-   second_top_montage_min
-) + plot_layout(widths = c(1,1), guides = "collect")
+   second_top_montage_max
+) + plot_layout(widths = c(1.1,1), guides = "collect")
 
 bottom_row_montage
 
 align_plot <- (
     top_row_montage /
     bottom_row_montage
-) + plot_layout(heights = c(1.0, 1.0))
+) + plot_layout(heights = c(1.15, 1.0))
 
 align_plot
 
