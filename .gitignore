@@ -1,0 +1,11 @@
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+1.train_models/logs/
+2.evaluate_model/logs/
+3.assess_generalizability/logs/
+
+# Ignore nested repo metadata, just in case
+nf1_painting_repo/.git/

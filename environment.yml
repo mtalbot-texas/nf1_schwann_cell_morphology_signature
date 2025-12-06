@@ -1,0 +1,22 @@
+name: nf1_analysis
+channels:
+  - conda-forge
+dependencies:
+  - conda-forge::python=3.9
+  - umap-learn
+  - scikit-posthocs
+  - pandas<2.0
+  - numpy
+  - matplotlib
+  - scipy
+  - pathlib2
+  - scikit-learn
+  - requests
+  - seaborn
+  - pip
+  - opencv
+  - pyarrow
+  - ipython
+  - notebook
+  # R packages:
+  - r-essentials
