@@ -1,0 +1,5 @@
+2025-12-06T10:33:06 [train_12_08_07_53_randomforest_train] INFO: Initialized logger.
+2025-12-06T10:33:06 [train_12_08_07_53_randomforest_train] INFO: Number of single-cells total per plate:
+2025-12-06T10:33:06 [train_12_08_07_53_randomforest_train] INFO: Plate 3: 10206
+2025-12-06T10:33:06 [train_12_08_07_53_randomforest_train] INFO: Plate 3 prime: 5126
+2025-12-06T10:33:06 [train_12_08_07_53_randomforest_train] INFO: Plate 5: 5348

@@ -1,0 +1,125 @@
+2025-12-05T18:10:54 [12_07_14_30_xgboost_train] INFO: Initialized logger.
+2025-12-05T18:10:55 [12_07_14_30_xgboost_train] INFO: Number of single-cells total per plate:
+2025-12-05T18:12:40 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:12:40 [INFO]    Fold 1/5 finished in 1.68 min
+2025-12-05T18:14:45 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:14:45 [INFO]    Fold 2/5 finished in 2.09 min
+2025-12-05T18:17:10 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:17:10 [INFO]    Fold 3/5 finished in 2.41 min
+2025-12-05T18:19:36 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:19:36 [INFO]    Fold 4/5 finished in 2.44 min
+2025-12-05T18:22:39 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:22:39 [INFO]    Fold 5/5 finished in 3.04 min
+2025-12-05T18:22:39 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:22:39 [INFO] Iteration 1 finished in 11.66 min (acc=0.8541, best_acc=0.8541)
+2025-12-05T18:25:44 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:25:44 [INFO]    Fold 1/5 finished in 3.09 min
+2025-12-05T18:29:09 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:29:09 [INFO]    Fold 2/5 finished in 3.42 min
+2025-12-05T18:32:19 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:32:19 [INFO]    Fold 3/5 finished in 3.18 min
+2025-12-05T18:35:17 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:35:17 [INFO]    Fold 4/5 finished in 2.96 min
+2025-12-05T18:38:13 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:38:13 [INFO]    Fold 5/5 finished in 2.93 min
+2025-12-05T18:38:13 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:38:13 [INFO] Iteration 2 finished in 15.57 min (acc=0.8476, best_acc=0.8541)
+2025-12-05T18:39:04 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:39:04 [INFO]    Fold 1/5 finished in 0.86 min
+2025-12-05T18:39:48 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:39:48 [INFO]    Fold 2/5 finished in 0.73 min
+2025-12-05T18:40:47 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:40:47 [INFO]    Fold 3/5 finished in 0.97 min
+2025-12-05T18:41:30 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:41:30 [INFO]    Fold 4/5 finished in 0.73 min
+2025-12-05T18:42:11 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:42:11 [INFO]    Fold 5/5 finished in 0.68 min
+2025-12-05T18:42:11 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:42:11 [INFO] Iteration 3 finished in 3.96 min (acc=0.8179, best_acc=0.8541)
+2025-12-05T18:44:53 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:44:53 [INFO]    Fold 1/5 finished in 2.71 min
+2025-12-05T18:48:02 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:48:02 [INFO]    Fold 2/5 finished in 3.14 min
+2025-12-05T18:51:37 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:51:37 [INFO]    Fold 3/5 finished in 3.59 min
+2025-12-05T18:55:22 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:55:22 [INFO]    Fold 4/5 finished in 3.75 min
+2025-12-05T18:58:33 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:58:33 [INFO]    Fold 5/5 finished in 3.18 min
+2025-12-05T18:58:33 [12_07_14_30_xgboost_train] INFO: 2025-12-05T18:58:33 [INFO] Iteration 4 finished in 16.36 min (acc=0.8543, best_acc=0.8543)
+2025-12-05T19:00:48 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:00:48 [INFO]    Fold 1/5 finished in 2.26 min
+2025-12-05T19:03:05 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:03:05 [INFO]    Fold 2/5 finished in 2.28 min
+2025-12-05T19:03:41 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:03:41 [INFO]    Fold 3/5 finished in 0.59 min
+2025-12-05T19:04:18 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:04:18 [INFO]    Fold 4/5 finished in 0.62 min
+2025-12-05T19:04:52 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:04:52 [INFO]    Fold 5/5 finished in 0.57 min
+2025-12-05T19:04:52 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:04:52 [INFO] Iteration 5 finished in 6.33 min (acc=0.8435, best_acc=0.8543)
+2025-12-05T19:05:08 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:05:08 [INFO]    Fold 1/5 finished in 0.26 min
+2025-12-05T19:05:24 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:05:24 [INFO]    Fold 2/5 finished in 0.27 min
+2025-12-05T19:05:39 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:05:39 [INFO]    Fold 3/5 finished in 0.25 min
+2025-12-05T19:05:56 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:05:56 [INFO]    Fold 4/5 finished in 0.27 min
+2025-12-05T19:06:12 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:06:12 [INFO]    Fold 5/5 finished in 0.28 min
+2025-12-05T19:06:12 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:06:12 [INFO] Iteration 6 finished in 1.34 min (acc=0.8297, best_acc=0.8543)
+2025-12-05T19:06:52 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:06:52 [INFO]    Fold 1/5 finished in 0.65 min
+2025-12-05T19:07:31 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:07:31 [INFO]    Fold 2/5 finished in 0.65 min
+2025-12-05T19:08:11 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:08:11 [INFO]    Fold 3/5 finished in 0.67 min
+2025-12-05T19:08:51 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:08:51 [INFO]    Fold 4/5 finished in 0.66 min
+2025-12-05T19:09:34 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:09:34 [INFO]    Fold 5/5 finished in 0.72 min
+2025-12-05T19:09:34 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:09:34 [INFO] Iteration 7 finished in 3.36 min (acc=0.8515, best_acc=0.8543)
+2025-12-05T19:10:16 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:10:16 [INFO]    Fold 1/5 finished in 0.69 min
+2025-12-05T19:10:57 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:10:57 [INFO]    Fold 2/5 finished in 0.69 min
+2025-12-05T19:11:39 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:11:39 [INFO]    Fold 3/5 finished in 0.69 min
+2025-12-05T19:12:21 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:12:21 [INFO]    Fold 4/5 finished in 0.70 min
+2025-12-05T19:13:04 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:13:04 [INFO]    Fold 5/5 finished in 0.72 min
+2025-12-05T19:13:04 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:13:04 [INFO] Iteration 8 finished in 3.50 min (acc=0.8532, best_acc=0.8543)
+2025-12-05T19:13:41 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:13:41 [INFO]    Fold 1/5 finished in 0.62 min
+2025-12-05T19:14:18 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:14:18 [INFO]    Fold 2/5 finished in 0.61 min
+2025-12-05T19:14:53 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:14:53 [INFO]    Fold 3/5 finished in 0.59 min
+2025-12-05T19:15:35 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:15:35 [INFO]    Fold 4/5 finished in 0.68 min
+2025-12-05T19:16:15 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:16:15 [INFO]    Fold 5/5 finished in 0.67 min
+2025-12-05T19:16:15 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:16:15 [INFO] Iteration 9 finished in 3.19 min (acc=0.8474, best_acc=0.8543)
+2025-12-05T19:16:53 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:16:53 [INFO]    Fold 1/5 finished in 0.64 min
+2025-12-05T19:17:29 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:17:29 [INFO]    Fold 2/5 finished in 0.60 min
+2025-12-05T19:18:06 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:18:06 [INFO]    Fold 3/5 finished in 0.61 min
+2025-12-05T19:18:43 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:18:43 [INFO]    Fold 4/5 finished in 0.62 min
+2025-12-05T19:19:20 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:19:20 [INFO]    Fold 5/5 finished in 0.61 min
+2025-12-05T19:19:20 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:19:20 [INFO] Iteration 10 finished in 3.08 min (acc=0.8513, best_acc=0.8543)
+2025-12-05T19:19:32 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:19:32 [INFO]    Fold 1/5 finished in 0.20 min
+2025-12-05T19:19:45 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:19:45 [INFO]    Fold 2/5 finished in 0.21 min
+2025-12-05T19:19:57 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:19:57 [INFO]    Fold 3/5 finished in 0.21 min
+2025-12-05T19:20:09 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:20:09 [INFO]    Fold 4/5 finished in 0.20 min
+2025-12-05T19:20:22 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:20:22 [INFO]    Fold 5/5 finished in 0.21 min
+2025-12-05T19:20:22 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:20:22 [INFO] Iteration 11 finished in 1.03 min (acc=0.8165, best_acc=0.8543)
+2025-12-05T19:21:17 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:21:17 [INFO]    Fold 1/5 finished in 0.92 min
+2025-12-05T19:22:12 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:22:12 [INFO]    Fold 2/5 finished in 0.91 min
+2025-12-05T19:23:06 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:23:06 [INFO]    Fold 3/5 finished in 0.90 min
+2025-12-05T19:24:01 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:24:01 [INFO]    Fold 4/5 finished in 0.92 min
+2025-12-05T19:24:52 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:24:52 [INFO]    Fold 5/5 finished in 0.85 min
+2025-12-05T19:24:52 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:24:52 [INFO] Iteration 12 finished in 4.51 min (acc=0.8531, best_acc=0.8543)
+2025-12-05T19:25:05 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:25:05 [INFO]    Fold 1/5 finished in 0.21 min
+2025-12-05T19:25:17 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:25:17 [INFO]    Fold 2/5 finished in 0.21 min
+2025-12-05T19:25:29 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:25:29 [INFO]    Fold 3/5 finished in 0.20 min
+2025-12-05T19:25:41 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:25:41 [INFO]    Fold 4/5 finished in 0.20 min
+2025-12-05T19:25:53 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:25:53 [INFO]    Fold 5/5 finished in 0.20 min
+2025-12-05T19:25:53 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:25:53 [INFO] Iteration 13 finished in 1.02 min (acc=0.8325, best_acc=0.8543)
+2025-12-05T19:26:11 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:26:11 [INFO]    Fold 1/5 finished in 0.29 min
+2025-12-05T19:26:28 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:26:28 [INFO]    Fold 2/5 finished in 0.28 min
+2025-12-05T19:26:44 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:26:44 [INFO]    Fold 3/5 finished in 0.28 min
+2025-12-05T19:27:01 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:27:01 [INFO]    Fold 4/5 finished in 0.28 min
+2025-12-05T19:27:19 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:27:19 [INFO]    Fold 5/5 finished in 0.29 min
+2025-12-05T19:27:19 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:27:19 [INFO] Iteration 14 finished in 1.42 min (acc=0.8448, best_acc=0.8543)
+2025-12-05T19:27:34 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:27:34 [INFO]    Fold 1/5 finished in 0.25 min
+2025-12-05T19:27:49 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:27:49 [INFO]    Fold 2/5 finished in 0.26 min
+2025-12-05T19:28:05 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:28:05 [INFO]    Fold 3/5 finished in 0.26 min
+2025-12-05T19:28:20 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:28:20 [INFO]    Fold 4/5 finished in 0.26 min
+2025-12-05T19:28:36 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:28:36 [INFO]    Fold 5/5 finished in 0.26 min
+2025-12-05T19:28:36 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:28:36 [INFO] Iteration 15 finished in 1.28 min (acc=0.8451, best_acc=0.8543)
+2025-12-05T19:28:57 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:28:57 [INFO]    Fold 1/5 finished in 0.35 min
+2025-12-05T19:29:19 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:29:19 [INFO]    Fold 2/5 finished in 0.36 min
+2025-12-05T19:29:40 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:29:40 [INFO]    Fold 3/5 finished in 0.36 min
+2025-12-05T19:30:01 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:30:01 [INFO]    Fold 4/5 finished in 0.36 min
+2025-12-05T19:30:23 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:30:23 [INFO]    Fold 5/5 finished in 0.36 min
+2025-12-05T19:30:23 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:30:23 [INFO] Iteration 16 finished in 1.79 min (acc=0.8426, best_acc=0.8543)
+2025-12-05T19:31:06 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:31:06 [INFO]    Fold 1/5 finished in 0.71 min
+2025-12-05T19:31:49 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:31:49 [INFO]    Fold 2/5 finished in 0.71 min
+2025-12-05T19:32:32 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:32:32 [INFO]    Fold 3/5 finished in 0.72 min
+2025-12-05T19:33:15 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:33:15 [INFO]    Fold 4/5 finished in 0.72 min
+2025-12-05T19:33:57 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:33:57 [INFO]    Fold 5/5 finished in 0.71 min
+2025-12-05T19:33:57 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:33:57 [INFO] Iteration 17 finished in 3.57 min (acc=0.8518, best_acc=0.8543)
+2025-12-05T19:34:25 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:34:25 [INFO]    Fold 1/5 finished in 0.46 min
+2025-12-05T19:34:53 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:34:53 [INFO]    Fold 2/5 finished in 0.46 min
+2025-12-05T19:35:20 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:35:20 [INFO]    Fold 3/5 finished in 0.46 min
+2025-12-05T19:35:48 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:35:48 [INFO]    Fold 4/5 finished in 0.46 min
+2025-12-05T19:36:15 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:36:15 [INFO]    Fold 5/5 finished in 0.46 min
+2025-12-05T19:36:15 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:36:15 [INFO] Iteration 18 finished in 2.29 min (acc=0.8518, best_acc=0.8543)
+2025-12-05T19:36:43 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:36:43 [INFO]    Fold 1/5 finished in 0.47 min
+2025-12-05T19:37:11 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:37:11 [INFO]    Fold 2/5 finished in 0.47 min
+2025-12-05T19:37:39 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:37:39 [INFO]    Fold 3/5 finished in 0.47 min
+2025-12-05T19:38:08 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:38:08 [INFO]    Fold 4/5 finished in 0.47 min
+2025-12-05T19:38:36 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:38:36 [INFO]    Fold 5/5 finished in 0.47 min
+2025-12-05T19:38:36 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:38:36 [INFO] Iteration 19 finished in 2.35 min (acc=0.8487, best_acc=0.8543)
+2025-12-05T19:38:44 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:38:44 [INFO]    Fold 1/5 finished in 0.14 min
+2025-12-05T19:38:53 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:38:53 [INFO]    Fold 2/5 finished in 0.15 min
+2025-12-05T19:39:02 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:39:02 [INFO]    Fold 3/5 finished in 0.14 min
+2025-12-05T19:39:11 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:39:11 [INFO]    Fold 4/5 finished in 0.15 min
+2025-12-05T19:39:19 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:39:19 [INFO]    Fold 5/5 finished in 0.14 min
+2025-12-05T19:39:19 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:39:19 [INFO] Iteration 20 finished in 0.73 min (acc=0.8202, best_acc=0.8543)
+2025-12-05T19:39:19 [12_07_14_30_xgboost_train] INFO: 2025-12-05T19:39:19 [INFO] Total search time: 88.34 min
+2025-12-05T19:39:19 [12_07_14_30_xgboost_train] INFO: Best average validation accuracy = 0.8542903158630782
+2025-12-05T19:39:19 [12_07_14_30_xgboost_train] INFO: Best hyperparameters = {'n_estimators': 900, 'max_depth': 5, 'learning_rate': 0.1, 'subsample': 1.0, 'colsample_bytree': 0.9, 'min_child_weight': 1, 'gamma': 0.3}

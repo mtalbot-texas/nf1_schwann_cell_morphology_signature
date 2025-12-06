@@ -1,0 +1,28 @@
+2025-12-05T18:06:17 [12_07_14_30_ensemble_eval] INFO: Initialized logger.
+2025-12-05T18:06:17 [12_07_14_30_ensemble_eval] INFO: Loading metrics parquet files for LR, XGBoost, and Random Forest...
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: Initialized logger.
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: Loading metrics parquet files for LR, XGBoost, and Random Forest...
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: LR metrics shape: (24, 6) from model_evaluation_data/metrics_final_qc_model.parquet
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: XGB metrics shape: (24, 6) from model_evaluation_data_xgboost/metrics_final_xgb_qc_model.parquet
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: RF metrics shape: (24, 6) from model_evaluation_data_randomforest/metrics_final_rf_qc_model.parquet
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: LR datasplits: ['shuffled_test', 'shuffled_train', 'shuffled_val', 'test', 'train', 'val']
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: XGB datasplits: ['shuffled_test', 'shuffled_train', 'shuffled_val', 'test', 'train', 'val']
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: RF datasplits: ['shuffled_test', 'shuffled_train', 'shuffled_val', 'test', 'train', 'val']
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: Computing test-set comparison (all plates and per plate)...
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: === Test-set performance: all plates ===
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: Test-set (all plates) comparison:
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: logistic_regression: accuracy=0.7898, f1=0.7909, precision=0.7868, recall=0.7951
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: xgboost: accuracy=0.8126, f1=0.8127, precision=0.8123, recall=0.8132
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: random_forest: accuracy=0.7649, f1=0.7692, precision=0.7554, recall=0.7834
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: === Test-set performance: per plate ===
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: Computed per-plate test performance for all models.
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: Summarizing train/val/test performance for all models...
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: logistic_regression: train_acc=0.8472, test_acc=0.7898, train-test gap=0.0574
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: xgboost: train_acc=1.0000, test_acc=0.8126, train-test gap=0.1874
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: random_forest: train_acc=1.0000, test_acc=0.7649, train-test gap=0.2351
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: Summarizing shuffled (null) performance for all models...
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: logistic_regression: mean shuffled accuracy=0.5001, mean shuffled f1=0.4968 over 12 rows
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: xgboost: mean shuffled accuracy=0.4995, mean shuffled f1=0.5153 over 12 rows
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: random_forest: mean shuffled accuracy=0.4973, mean shuffled f1=0.5118 over 12 rows
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: Saving ensemble comparison tables to model_evaluation_data_ensemble...
+2025-12-05T18:07:09 [12_07_14_30_ensemble_eval] INFO: Finished saving ensemble comparison tables.

@@ -1,0 +1,36 @@
+2025-12-05T23:08:26 [12_07_23_30_ensemble_generalizability] INFO: Initialized logger.
+2025-12-05T23:08:27 [12_07_23_30_ensemble_generalizability] INFO: Imported libraries.
+2025-12-05T23:08:27 [12_07_23_30_ensemble_generalizability] INFO: Logreg file: /Users/marktalbot/Documents/VC Studio Homework Folders/HighRisk/nf1_schwann_cell_morphology_signature/3.assess_generalizability/results/plate_6_single_cell_probabilities_qc.parquet
+2025-12-05T23:08:27 [12_07_23_30_ensemble_generalizability] INFO: RF file: /Users/marktalbot/Documents/VC Studio Homework Folders/HighRisk/nf1_schwann_cell_morphology_signature/3.assess_generalizability/results_randomforest/plate_6_single_cell_probabilities_rf_qc.parquet
+2025-12-05T23:08:27 [12_07_23_30_ensemble_generalizability] INFO: XGB file: /Users/marktalbot/Documents/VC Studio Homework Folders/HighRisk/nf1_schwann_cell_morphology_signature/3.assess_generalizability/results_xgboost/plate_6_single_cell_probabilities_qc.parquet
+2025-12-05T23:08:27 [12_07_23_30_ensemble_generalizability] INFO: Loaded logreg df shape: (13410, 23)
+2025-12-05T23:08:27 [12_07_23_30_ensemble_generalizability] INFO: Loaded RF df shape: (13410, 23)
+2025-12-05T23:08:27 [12_07_23_30_ensemble_generalizability] INFO: Loaded XGB df shape: (13410, 23)
+2025-12-05T23:08:27 [12_07_23_30_ensemble_generalizability] INFO: Number of metadata columns: 19
+2025-12-05T23:08:27 [12_07_23_30_ensemble_generalizability] INFO: Metadata identical LR vs RF: True
+2025-12-05T23:08:27 [12_07_23_30_ensemble_generalizability] INFO: Metadata identical LR vs XGB: True
+2025-12-05T23:08:27 [12_07_23_30_ensemble_generalizability] INFO: Ensemble probabilities computed.
+2025-12-05T23:08:27 [12_07_23_30_ensemble_generalizability] INFO: ensemble_df shape: (13410, 28)
+2025-12-05T23:08:27 [12_07_23_30_ensemble_generalizability] INFO: Saved ensemble single cell probabilities to results_ensemble/plate_6_single_cell_probabilities_ensemble_qc.parquet
+2025-12-05T23:08:27 [12_07_23_30_ensemble_generalizability] INFO: Rows used for metrics (non HET): 8552 out of 13410
+2025-12-05T23:08:27 [12_07_23_30_ensemble_generalizability] INFO: precision_recall_df shape: (17110, 4)
+2025-12-05T23:08:27 [12_07_23_30_ensemble_generalizability] INFO: Saved ensemble PR curves to results_ensemble/plate6_precision_recall_final_ensemble_model_qc.parquet
+2025-12-05T23:08:27 [12_07_23_30_ensemble_generalizability] INFO: accuracy_per_group shape: (4, 3)
+2025-12-05T23:08:27 [12_07_23_30_ensemble_generalizability] INFO: Saved ensemble accuracy table to results_ensemble/plate6_accuracy_final_ensemble_model_qc.parquet
+2025-12-06T07:30:37 [12_07_23_30_ensemble_generalizability] INFO: Initialized logger.
+2025-12-06T07:30:37 [12_07_23_30_ensemble_generalizability] INFO: Imported libraries for generalizability comparison.
+2025-12-06T07:30:37 [12_07_23_30_ensemble_generalizability] INFO: Accuracy files: {'logistic_regression': PosixPath('results/plate6_accuracy_final_model_qc.parquet'), 'random_forest': PosixPath('results_randomforest/plate6_accuracy_final_model_rf_qc.parquet'), 'xgboost': PosixPath('results_xgboost/plate6_accuracy_final_model_xgb_qc.parquet')}
+2025-12-06T07:30:37 [12_07_23_30_ensemble_generalizability] INFO: PR files: {'logistic_regression': PosixPath('results/plate6_precision_recall_final_model_qc.parquet'), 'random_forest': PosixPath('results_randomforest/plate6_precision_recall_final_model_rf_qc.parquet'), 'xgboost': PosixPath('results_xgboost/plate6_precision_recall_final_model_qc.parquet')}
+2025-12-06T07:30:37 [12_07_23_30_ensemble_generalizability] INFO: Loading accuracy for logistic_regression from results/plate6_accuracy_final_model_qc.parquet
+2025-12-06T07:30:37 [12_07_23_30_ensemble_generalizability] INFO: Loading accuracy for random_forest from results_randomforest/plate6_accuracy_final_model_rf_qc.parquet
+2025-12-06T07:30:37 [12_07_23_30_ensemble_generalizability] INFO: Loading accuracy for xgboost from results_xgboost/plate6_accuracy_final_model_xgb_qc.parquet
+2025-12-06T07:30:37 [12_07_23_30_ensemble_generalizability] INFO: Combined accuracy_all_models_df shape: (12, 4)
+2025-12-06T07:30:37 [12_07_23_30_ensemble_generalizability] INFO: logistic_regression mean final accuracy across institutions: 0.5924
+2025-12-06T07:30:37 [12_07_23_30_ensemble_generalizability] INFO: random_forest mean final accuracy across institutions: 0.6043
+2025-12-06T07:30:37 [12_07_23_30_ensemble_generalizability] INFO: xgboost mean final accuracy across institutions: 0.5815
+2025-12-06T07:30:37 [12_07_23_30_ensemble_generalizability] INFO: Saved combined accuracy table to results_ensemble/plate6_accuracy_final_all_models_qc.parquet
+2025-12-06T07:30:37 [12_07_23_30_ensemble_generalizability] INFO: Loading PR curves for logistic_regression from results/plate6_precision_recall_final_model_qc.parquet
+2025-12-06T07:30:37 [12_07_23_30_ensemble_generalizability] INFO: Loading PR curves for random_forest from results_randomforest/plate6_precision_recall_final_model_rf_qc.parquet
+2025-12-06T07:30:37 [12_07_23_30_ensemble_generalizability] INFO: Loading PR curves for xgboost from results_xgboost/plate6_precision_recall_final_model_qc.parquet
+2025-12-06T07:30:37 [12_07_23_30_ensemble_generalizability] INFO: Combined precision_recall_all_models_df shape: (17926, 5)
+2025-12-06T07:30:37 [12_07_23_30_ensemble_generalizability] INFO: Saved combined PR table to results_ensemble/plate6_precision_recall_final_all_models_qc.parquet

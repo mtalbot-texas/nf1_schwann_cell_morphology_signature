@@ -1,0 +1,3 @@
+2025-12-06T10:14:15 [main_figure_3_12_06_08_07_xgboost_main_figure_3] INFO: Initialized R logger and export_figure3_panels utility for main_figure_3. 
+2025-12-06T10:14:15 [main_figure_3_12_06_08_07_xgboost_main_figure_3] INFO: Logging to file: logs/log_main_figure_3_12_06_08_07_xgboost.log 
+2025-12-06T10:15:12 [main_figure_3_12_06_08_07_xgboost_main_figure_3] INFO: figure3_panel_export_file= panel_exports/figure3_panels_main_figure_3_12_06_08_07_xgboost.json 

@@ -9,3 +9,5 @@ __pycache__/
 
 # ignore single-cell crop images for main figure 4 (too many files)
 sc_crops*
+# Nested painting repo
+nf1_painting_repo/

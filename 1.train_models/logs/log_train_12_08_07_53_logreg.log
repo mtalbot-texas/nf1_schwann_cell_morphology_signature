@@ -1,0 +1,14 @@
+2025-12-06T10:25:26 [train_12_08_07_53_logreg_train] INFO: Initialized logger.
+2025-12-06T10:25:26 [train_12_08_07_53_logreg_train] INFO: Number of single-cells total per plate:
+2025-12-06T10:25:27 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 1 of 50: trying C = 147.505
+2025-12-06T10:25:50 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 2 of 50: trying C = 145.229
+2025-12-06T10:26:11 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 3 of 50: trying C = 174.229
+2025-12-06T10:26:33 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 4 of 50: trying C = 132.087
+2025-12-06T10:27:00 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 5 of 50: trying C = 199.922
+2025-12-06T10:27:21 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 6 of 50: trying C = 179.866
+2025-12-06T10:32:18 [train_12_08_07_53_logreg_train] INFO: Initialized logger.
+2025-12-06T10:32:19 [train_12_08_07_53_logreg_train] INFO: Number of single-cells total per plate:
+2025-12-06T10:32:19 [train_12_08_07_53_logreg_train] INFO: Plate 3: 10206
+2025-12-06T10:32:19 [train_12_08_07_53_logreg_train] INFO: Plate 3 prime: 5126
+2025-12-06T10:32:19 [train_12_08_07_53_logreg_train] INFO: Plate 5: 5348
+2025-12-06T10:32:19 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 1 of 50: trying C = 132.670

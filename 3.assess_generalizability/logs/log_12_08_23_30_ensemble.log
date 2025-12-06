@@ -1,0 +1,17 @@
+2025-12-06T07:31:41 [12_08_23_30_ensemble_generalizability] INFO: Initialized logger.
+2025-12-06T07:31:41 [12_08_23_30_ensemble_generalizability] INFO: Imported libraries for generalizability comparison.
+2025-12-06T07:31:41 [12_08_23_30_ensemble_generalizability] INFO: Accuracy files: {'logistic_regression': PosixPath('results/plate6_accuracy_final_model_qc.parquet'), 'random_forest': PosixPath('results_randomforest/plate6_accuracy_final_model_rf_qc.parquet'), 'xgboost': PosixPath('results_xgboost/plate6_accuracy_final_model_xgb_qc.parquet')}
+2025-12-06T07:31:41 [12_08_23_30_ensemble_generalizability] INFO: PR files: {'logistic_regression': PosixPath('results/plate6_precision_recall_final_model_qc.parquet'), 'random_forest': PosixPath('results_randomforest/plate6_precision_recall_final_model_rf_qc.parquet'), 'xgboost': PosixPath('results_xgboost/plate6_precision_recall_final_model_qc.parquet')}
+2025-12-06T07:31:41 [12_08_23_30_ensemble_generalizability] INFO: Loading accuracy for logistic_regression from results/plate6_accuracy_final_model_qc.parquet
+2025-12-06T07:31:41 [12_08_23_30_ensemble_generalizability] INFO: Loading accuracy for random_forest from results_randomforest/plate6_accuracy_final_model_rf_qc.parquet
+2025-12-06T07:31:41 [12_08_23_30_ensemble_generalizability] INFO: Loading accuracy for xgboost from results_xgboost/plate6_accuracy_final_model_xgb_qc.parquet
+2025-12-06T07:31:41 [12_08_23_30_ensemble_generalizability] INFO: Combined accuracy_all_models_df shape: (12, 4)
+2025-12-06T07:31:41 [12_08_23_30_ensemble_generalizability] INFO: logistic_regression mean final accuracy across institutions: 0.5924
+2025-12-06T07:31:41 [12_08_23_30_ensemble_generalizability] INFO: random_forest mean final accuracy across institutions: 0.6043
+2025-12-06T07:31:41 [12_08_23_30_ensemble_generalizability] INFO: xgboost mean final accuracy across institutions: 0.5815
+2025-12-06T07:31:41 [12_08_23_30_ensemble_generalizability] INFO: Saved combined accuracy table to results_ensemble/plate6_accuracy_final_all_models_qc.parquet
+2025-12-06T07:31:41 [12_08_23_30_ensemble_generalizability] INFO: Loading PR curves for logistic_regression from results/plate6_precision_recall_final_model_qc.parquet
+2025-12-06T07:31:41 [12_08_23_30_ensemble_generalizability] INFO: Loading PR curves for random_forest from results_randomforest/plate6_precision_recall_final_model_rf_qc.parquet
+2025-12-06T07:31:41 [12_08_23_30_ensemble_generalizability] INFO: Loading PR curves for xgboost from results_xgboost/plate6_precision_recall_final_model_qc.parquet
+2025-12-06T07:31:41 [12_08_23_30_ensemble_generalizability] INFO: Combined precision_recall_all_models_df shape: (17926, 5)
+2025-12-06T07:31:41 [12_08_23_30_ensemble_generalizability] INFO: Saved combined PR table to results_ensemble/plate6_precision_recall_final_all_models_qc.parquet

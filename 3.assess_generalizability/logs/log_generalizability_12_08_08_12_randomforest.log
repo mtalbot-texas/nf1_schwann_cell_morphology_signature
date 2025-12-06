@@ -1,0 +1,6 @@
+2025-12-06T08:17:30 [generalizability_12_08_08_12_randomforest_generalizability] INFO: Initialized logger.
+2025-12-06T08:17:30 [generalizability_12_08_08_12_randomforest_generalizability] INFO: Loading Plate 6 data from: /Users/marktalbot/Documents/VC Studio Homework Folders/HighRisk/nf1_schwann_cell_painting_data/3.processing_features/data/single_cell_profiles/cleaned_sc_profiles/Plate_6_sc_normalized.parquet
+2025-12-06T08:17:31 [generalizability_12_08_08_12_randomforest_generalizability] INFO: Dropped rows: 157
+2025-12-06T08:17:31 [generalizability_12_08_08_12_randomforest_generalizability] INFO: (6705, 2319)
+2025-12-06T08:17:31 [generalizability_12_08_08_12_randomforest_generalizability] INFO: (6705, 2319)
+2025-12-06T08:17:33 [generalizability_12_08_08_12_randomforest_generalizability] INFO: (835, 4)
