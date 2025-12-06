@@ -1,0 +1,97 @@
+2025-12-06T16:51:22 [train_12_08_16_45_randomforest_train] INFO: Initialized logger.
+2025-12-06T16:51:23 [train_12_08_16_45_randomforest_train] INFO: Number of single-cells total per plate:
+2025-12-06T16:51:23 [train_12_08_16_45_randomforest_train] INFO: Plate 3: 10206
+2025-12-06T16:51:23 [train_12_08_16_45_randomforest_train] INFO: Plate 3 prime: 5126
+2025-12-06T16:51:23 [train_12_08_16_45_randomforest_train] INFO: Plate 5: 5348
+2025-12-06T16:51:24 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:51:24 [INFO] Loaded Optuna study 'rf_cv' with 0 total trials (0 completed). Target total trials = 15. Running 15 new trials in this session.
+2025-12-06T16:51:38 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:51:38 [INFO]    Fold 1/5 finished in 0.23 min
+2025-12-06T16:51:49 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:51:49 [INFO]    Fold 2/5 finished in 0.18 min
+2025-12-06T16:51:59 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:51:59 [INFO]    Fold 3/5 finished in 0.17 min
+2025-12-06T16:52:10 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:52:10 [INFO]    Fold 4/5 finished in 0.18 min
+2025-12-06T16:52:20 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:52:20 [INFO]    Fold 5/5 finished in 0.17 min
+2025-12-06T16:52:20 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:52:20 [INFO] Iteration 1 finished in 0.94 min (AUC=0.8296, best_AUC=0.8296)
+2025-12-06T16:52:32 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:52:32 [INFO]    Fold 1/5 finished in 0.19 min
+2025-12-06T16:52:43 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:52:43 [INFO]    Fold 2/5 finished in 0.19 min
+2025-12-06T16:52:54 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:52:54 [INFO]    Fold 3/5 finished in 0.18 min
+2025-12-06T16:53:06 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:53:06 [INFO]    Fold 4/5 finished in 0.20 min
+2025-12-06T16:53:18 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:53:18 [INFO]    Fold 5/5 finished in 0.19 min
+2025-12-06T16:53:18 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:53:18 [INFO] Iteration 2 finished in 0.95 min (AUC=0.8292, best_AUC=0.8296)
+2025-12-06T16:53:37 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:53:37 [INFO]    Fold 1/5 finished in 0.32 min
+2025-12-06T16:53:57 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:53:57 [INFO]    Fold 2/5 finished in 0.34 min
+2025-12-06T16:54:18 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:54:18 [INFO]    Fold 3/5 finished in 0.34 min
+2025-12-06T16:54:38 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:54:38 [INFO]    Fold 4/5 finished in 0.33 min
+2025-12-06T16:54:58 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:54:58 [INFO]    Fold 5/5 finished in 0.33 min
+2025-12-06T16:54:58 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:54:58 [INFO] Iteration 3 finished in 1.67 min (AUC=0.8316, best_AUC=0.8316)
+2025-12-06T16:55:10 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:55:10 [INFO]    Fold 1/5 finished in 0.20 min
+2025-12-06T16:55:20 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:55:20 [INFO]    Fold 2/5 finished in 0.17 min
+2025-12-06T16:55:31 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:55:31 [INFO]    Fold 3/5 finished in 0.18 min
+2025-12-06T16:55:41 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:55:41 [INFO]    Fold 4/5 finished in 0.18 min
+2025-12-06T16:55:52 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:55:52 [INFO]    Fold 5/5 finished in 0.17 min
+2025-12-06T16:55:52 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:55:52 [INFO] Iteration 4 finished in 0.90 min (AUC=0.8296, best_AUC=0.8316)
+2025-12-06T16:56:14 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:56:14 [INFO]    Fold 1/5 finished in 0.37 min
+2025-12-06T16:56:36 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:56:36 [INFO]    Fold 2/5 finished in 0.37 min
+2025-12-06T16:56:59 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:56:59 [INFO]    Fold 3/5 finished in 0.38 min
+2025-12-06T16:57:21 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:57:21 [INFO]    Fold 4/5 finished in 0.37 min
+2025-12-06T16:57:44 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:57:44 [INFO]    Fold 5/5 finished in 0.37 min
+2025-12-06T16:57:44 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:57:44 [INFO] Iteration 5 finished in 1.87 min (AUC=0.8328, best_AUC=0.8328)
+2025-12-06T16:58:12 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:58:12 [INFO]    Fold 1/5 finished in 0.48 min
+2025-12-06T16:58:40 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:58:40 [INFO]    Fold 2/5 finished in 0.46 min
+2025-12-06T16:59:08 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:59:08 [INFO]    Fold 3/5 finished in 0.46 min
+2025-12-06T16:59:36 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T16:59:36 [INFO]    Fold 4/5 finished in 0.47 min
+2025-12-06T17:00:03 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:00:03 [INFO]    Fold 5/5 finished in 0.46 min
+2025-12-06T17:00:03 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:00:03 [INFO] Iteration 6 finished in 2.33 min (AUC=0.8432, best_AUC=0.8432)
+2025-12-06T17:01:00 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:01:00 [INFO]    Fold 1/5 finished in 0.94 min
+2025-12-06T17:01:56 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:01:56 [INFO]    Fold 2/5 finished in 0.94 min
+2025-12-06T17:02:53 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:02:53 [INFO]    Fold 3/5 finished in 0.95 min
+2025-12-06T17:03:50 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:03:50 [INFO]    Fold 4/5 finished in 0.95 min
+2025-12-06T17:04:47 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:04:47 [INFO]    Fold 5/5 finished in 0.95 min
+2025-12-06T17:04:47 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:04:47 [INFO] Iteration 7 finished in 4.72 min (AUC=0.8458, best_AUC=0.8458)
+2025-12-06T17:05:14 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:05:14 [INFO]    Fold 1/5 finished in 0.46 min
+2025-12-06T17:05:41 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:05:41 [INFO]    Fold 2/5 finished in 0.44 min
+2025-12-06T17:06:09 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:06:09 [INFO]    Fold 3/5 finished in 0.47 min
+2025-12-06T17:06:36 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:06:36 [INFO]    Fold 4/5 finished in 0.45 min
+2025-12-06T17:07:05 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:07:05 [INFO]    Fold 5/5 finished in 0.48 min
+2025-12-06T17:07:05 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:07:05 [INFO] Iteration 8 finished in 2.30 min (AUC=0.8318, best_AUC=0.8458)
+2025-12-06T17:08:06 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:08:06 [INFO]    Fold 1/5 finished in 1.03 min
+2025-12-06T17:09:06 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:09:06 [INFO]    Fold 2/5 finished in 0.99 min
+2025-12-06T17:10:23 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:10:23 [INFO]    Fold 3/5 finished in 1.29 min
+2025-12-06T17:11:28 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:11:28 [INFO]    Fold 4/5 finished in 1.09 min
+2025-12-06T17:12:32 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:12:32 [INFO]    Fold 5/5 finished in 1.07 min
+2025-12-06T17:12:33 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:12:33 [INFO] Iteration 9 finished in 5.46 min (AUC=0.8460, best_AUC=0.8460)
+2025-12-06T17:12:56 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:12:56 [INFO]    Fold 1/5 finished in 0.39 min
+2025-12-06T17:13:21 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:13:21 [INFO]    Fold 2/5 finished in 0.42 min
+2025-12-06T17:13:46 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:13:46 [INFO]    Fold 3/5 finished in 0.40 min
+2025-12-06T17:14:09 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:14:09 [INFO]    Fold 4/5 finished in 0.39 min
+2025-12-06T17:14:31 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:14:31 [INFO]    Fold 5/5 finished in 0.37 min
+2025-12-06T17:14:31 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:14:31 [INFO] Iteration 10 finished in 1.98 min (AUC=0.8328, best_AUC=0.8460)
+2025-12-06T17:15:59 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:15:59 [INFO]    Fold 1/5 finished in 1.46 min
+2025-12-06T17:17:36 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:17:36 [INFO]    Fold 2/5 finished in 1.62 min
+2025-12-06T17:19:21 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:19:21 [INFO]    Fold 3/5 finished in 1.75 min
+2025-12-06T17:21:01 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:21:01 [INFO]    Fold 4/5 finished in 1.67 min
+2025-12-06T17:22:40 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:22:40 [INFO]    Fold 5/5 finished in 1.64 min
+2025-12-06T17:22:40 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:22:40 [INFO] Iteration 11 finished in 8.14 min (AUC=0.8464, best_AUC=0.8464)
+2025-12-06T17:24:11 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:24:11 [INFO]    Fold 1/5 finished in 1.52 min
+2025-12-06T17:25:45 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:25:45 [INFO]    Fold 2/5 finished in 1.56 min
+2025-12-06T17:27:16 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:27:16 [INFO]    Fold 3/5 finished in 1.53 min
+2025-12-06T17:28:51 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:28:51 [INFO]    Fold 4/5 finished in 1.57 min
+2025-12-06T17:30:36 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:30:36 [INFO]    Fold 5/5 finished in 1.75 min
+2025-12-06T17:30:36 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:30:36 [INFO] Iteration 12 finished in 7.94 min (AUC=0.8464, best_AUC=0.8464)
+2025-12-06T17:32:26 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:32:26 [INFO]    Fold 1/5 finished in 1.83 min
+2025-12-06T17:33:56 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:33:56 [INFO]    Fold 2/5 finished in 1.49 min
+2025-12-06T17:35:21 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:35:21 [INFO]    Fold 3/5 finished in 1.43 min
+2025-12-06T17:36:48 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:36:48 [INFO]    Fold 4/5 finished in 1.44 min
+2025-12-06T17:38:13 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:38:13 [INFO]    Fold 5/5 finished in 1.41 min
+2025-12-06T17:38:13 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:38:13 [INFO] Iteration 13 finished in 7.61 min (AUC=0.8464, best_AUC=0.8464)
+2025-12-06T17:39:38 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:39:38 [INFO]    Fold 1/5 finished in 1.42 min
+2025-12-06T17:41:13 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:41:13 [INFO]    Fold 2/5 finished in 1.58 min
+2025-12-06T17:43:13 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:43:13 [INFO]    Fold 3/5 finished in 2.01 min
+2025-12-06T17:45:05 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:45:05 [INFO]    Fold 4/5 finished in 1.86 min
+2025-12-06T17:46:45 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:46:45 [INFO]    Fold 5/5 finished in 1.68 min
+2025-12-06T17:46:45 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:46:45 [INFO] Iteration 14 finished in 8.55 min (AUC=0.8464, best_AUC=0.8464)
+2025-12-06T17:47:40 [train_12_08_16_45_randomforest_train] INFO: Initialized logger.
+2025-12-06T17:47:41 [train_12_08_16_45_randomforest_train] INFO: Number of single-cells total per plate:
+2025-12-06T17:47:41 [train_12_08_16_45_randomforest_train] INFO: Plate 3: 10206
+2025-12-06T17:47:41 [train_12_08_16_45_randomforest_train] INFO: Plate 3 prime: 5126
+2025-12-06T17:47:41 [train_12_08_16_45_randomforest_train] INFO: Plate 5: 5348
+2025-12-06T17:47:43 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:47:43 [INFO] Loaded Optuna study 'rf_cv' with 15 total trials (14 completed). Target total trials = 50. Running 36 new trials in this session.
+2025-12-06T17:49:21 [train_12_08_16_45_randomforest_train] INFO: 2025-12-06T17:49:21 [INFO]    Fold 1/5 finished in 1.63 min

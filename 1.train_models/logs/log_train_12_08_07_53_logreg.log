@@ -12,3 +12,56 @@
 2025-12-06T10:32:19 [train_12_08_07_53_logreg_train] INFO: Plate 3 prime: 5126
 2025-12-06T10:32:19 [train_12_08_07_53_logreg_train] INFO: Plate 5: 5348
 2025-12-06T10:32:19 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 1 of 50: trying C = 132.670
+2025-12-06T16:33:42 [train_12_08_07_53_logreg_train] INFO: Initialized logger.
+2025-12-06T16:33:43 [train_12_08_07_53_logreg_train] INFO: Number of single-cells total per plate:
+2025-12-06T16:33:43 [train_12_08_07_53_logreg_train] INFO: Plate 3: 10206
+2025-12-06T16:33:43 [train_12_08_07_53_logreg_train] INFO: Plate 3 prime: 5126
+2025-12-06T16:33:43 [train_12_08_07_53_logreg_train] INFO: Plate 5: 5348
+2025-12-06T16:33:59 [train_12_08_07_53_logreg_train] INFO: Initialized logger.
+2025-12-06T16:34:00 [train_12_08_07_53_logreg_train] INFO: Number of single-cells total per plate:
+2025-12-06T16:34:00 [train_12_08_07_53_logreg_train] INFO: Plate 3: 10206
+2025-12-06T16:34:00 [train_12_08_07_53_logreg_train] INFO: Plate 3 prime: 5126
+2025-12-06T16:34:00 [train_12_08_07_53_logreg_train] INFO: Plate 5: 5348
+2025-12-06T16:39:19 [train_12_08_07_53_logreg_train] INFO: Initialized logger.
+2025-12-06T16:39:19 [train_12_08_07_53_logreg_train] INFO: Number of single-cells total per plate:
+2025-12-06T16:39:19 [train_12_08_07_53_logreg_train] INFO: Plate 3: 10206
+2025-12-06T16:39:19 [train_12_08_07_53_logreg_train] INFO: Plate 3 prime: 5126
+2025-12-06T16:39:19 [train_12_08_07_53_logreg_train] INFO: Plate 5: 5348
+2025-12-06T16:39:20 [train_12_08_07_53_logreg_train] INFO: [INFO] Loaded Optuna study 'logreg_cv' with 0 total trials (0 completed). Target total trials = 50. Running 50 new trials in this session.
+2025-12-06T16:39:20 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 1 of 50: trying C = 166.356 (Optuna trial 0)
+2025-12-06T16:39:43 [train_12_08_07_53_logreg_train] INFO: [INFO] Completed Optuna trial 0: mean CV accuracy = 0.8126
+2025-12-06T16:39:43 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 2 of 50: trying C = 96.555 (Optuna trial 1)
+2025-12-06T16:40:06 [train_12_08_07_53_logreg_train] INFO: [INFO] Completed Optuna trial 1: mean CV accuracy = 0.8131
+2025-12-06T16:40:06 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 3 of 50: trying C = 44.445 (Optuna trial 2)
+2025-12-06T16:40:27 [train_12_08_07_53_logreg_train] INFO: [INFO] Completed Optuna trial 2: mean CV accuracy = 0.8123
+2025-12-06T16:40:27 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 4 of 50: trying C = 64.797 (Optuna trial 3)
+2025-12-06T16:40:49 [train_12_08_07_53_logreg_train] INFO: [INFO] Completed Optuna trial 3: mean CV accuracy = 0.8127
+2025-12-06T16:40:49 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 5 of 50: trying C = 123.516 (Optuna trial 4)
+2025-12-06T16:41:11 [train_12_08_07_53_logreg_train] INFO: [INFO] Completed Optuna trial 4: mean CV accuracy = 0.8129
+2025-12-06T16:41:11 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 6 of 50: trying C = 128.876 (Optuna trial 5)
+2025-12-06T16:41:33 [train_12_08_07_53_logreg_train] INFO: [INFO] Completed Optuna trial 5: mean CV accuracy = 0.8124
+2025-12-06T16:41:33 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 7 of 50: trying C = 144.643 (Optuna trial 6)
+2025-12-06T16:41:59 [train_12_08_07_53_logreg_train] INFO: [INFO] Completed Optuna trial 6: mean CV accuracy = 0.8132
+2025-12-06T16:41:59 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 8 of 50: trying C = 14.571 (Optuna trial 7)
+2025-12-06T16:42:23 [train_12_08_07_53_logreg_train] INFO: [INFO] Completed Optuna trial 7: mean CV accuracy = 0.8129
+2025-12-06T16:42:23 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 9 of 50: trying C = 133.113 (Optuna trial 8)
+2025-12-06T16:42:46 [train_12_08_07_53_logreg_train] INFO: [INFO] Completed Optuna trial 8: mean CV accuracy = 0.8129
+2025-12-06T16:42:46 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 10 of 50: trying C = 71.059 (Optuna trial 9)
+2025-12-06T16:43:10 [train_12_08_07_53_logreg_train] INFO: [INFO] Completed Optuna trial 9: mean CV accuracy = 0.8137
+2025-12-06T16:43:10 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 11 of 50: trying C = 192.574 (Optuna trial 10)
+2025-12-06T16:43:34 [train_12_08_07_53_logreg_train] INFO: [INFO] Completed Optuna trial 10: mean CV accuracy = 0.8127
+2025-12-06T16:43:34 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 12 of 50: trying C = 78.531 (Optuna trial 11)
+2025-12-06T16:44:03 [train_12_08_07_53_logreg_train] INFO: [INFO] Completed Optuna trial 11: mean CV accuracy = 0.8131
+2025-12-06T16:44:03 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 13 of 50: trying C = 159.814 (Optuna trial 12)
+2025-12-06T16:44:32 [train_12_08_07_53_logreg_train] INFO: [INFO] Completed Optuna trial 12: mean CV accuracy = 0.8127
+2025-12-06T16:44:32 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 14 of 50: trying C = 44.069 (Optuna trial 13)
+2025-12-06T16:45:01 [train_12_08_07_53_logreg_train] INFO: [INFO] Completed Optuna trial 13: mean CV accuracy = 0.8129
+2025-12-06T16:45:01 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 15 of 50: trying C = 101.977 (Optuna trial 14)
+2025-12-06T16:45:29 [train_12_08_07_53_logreg_train] INFO: [INFO] Completed Optuna trial 14: mean CV accuracy = 0.8132
+2025-12-06T16:45:29 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 16 of 50: trying C = 95.661 (Optuna trial 15)
+2025-12-06T16:45:56 [train_12_08_07_53_logreg_train] INFO: [INFO] Completed Optuna trial 15: mean CV accuracy = 0.8129
+2025-12-06T16:45:56 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 17 of 50: trying C = 2.209 (Optuna trial 16)
+2025-12-06T16:46:27 [train_12_08_07_53_logreg_train] INFO: [INFO] Completed Optuna trial 16: mean CV accuracy = 0.8129
+2025-12-06T16:46:27 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 18 of 50: trying C = 65.405 (Optuna trial 17)
+2025-12-06T16:46:56 [train_12_08_07_53_logreg_train] INFO: [INFO] Completed Optuna trial 17: mean CV accuracy = 0.8125
+2025-12-06T16:46:56 [train_12_08_07_53_logreg_train] INFO: [INFO] Iteration 19 of 50: trying C = 110.842 (Optuna trial 18)

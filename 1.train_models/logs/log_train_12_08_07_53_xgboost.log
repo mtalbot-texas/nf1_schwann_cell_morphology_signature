@@ -3,3 +3,40 @@
 2025-12-06T10:32:46 [train_12_08_07_53_xgboost_train] INFO: Plate 3: 10206
 2025-12-06T10:32:46 [train_12_08_07_53_xgboost_train] INFO: Plate 3 prime: 5126
 2025-12-06T10:32:46 [train_12_08_07_53_xgboost_train] INFO: Plate 5: 5348
+2025-12-06T17:10:09 [train_12_08_07_53_xgboost_train] INFO: Initialized logger.
+2025-12-06T17:10:10 [train_12_08_07_53_xgboost_train] INFO: Number of single-cells total per plate:
+2025-12-06T17:10:10 [train_12_08_07_53_xgboost_train] INFO: Plate 3: 10206
+2025-12-06T17:10:10 [train_12_08_07_53_xgboost_train] INFO: Plate 3 prime: 5126
+2025-12-06T17:10:10 [train_12_08_07_53_xgboost_train] INFO: Plate 5: 5348
+2025-12-06T17:10:14 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:10:14 [INFO] Loaded Optuna study 'xgb_cv' with 0 total trials (0 completed). Target total trials = 20. Running 20 new trials in this session.
+2025-12-06T17:13:17 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:13:17 [INFO]    Fold 1/5 finished in 3.05 min
+2025-12-06T17:16:00 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:16:00 [INFO]    Fold 2/5 finished in 2.72 min
+2025-12-06T17:19:04 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:19:04 [INFO]    Fold 3/5 finished in 3.06 min
+2025-12-06T17:21:53 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:21:53 [INFO]    Fold 4/5 finished in 2.82 min
+2025-12-06T17:24:31 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:24:31 [INFO]    Fold 5/5 finished in 2.64 min
+2025-12-06T17:24:31 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:24:31 [INFO] Iteration 1 finished in 14.29 min (acc=0.8387, best_acc=0.8387)
+2025-12-06T17:26:18 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:26:18 [INFO]    Fold 1/5 finished in 1.79 min
+2025-12-06T17:28:15 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:28:15 [INFO]    Fold 2/5 finished in 1.94 min
+2025-12-06T17:29:58 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:29:58 [INFO]    Fold 3/5 finished in 1.72 min
+2025-12-06T17:31:42 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:31:42 [INFO]    Fold 4/5 finished in 1.73 min
+2025-12-06T17:32:45 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:32:45 [INFO]    Fold 5/5 finished in 1.05 min
+2025-12-06T17:32:45 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:32:45 [INFO] Iteration 2 finished in 8.22 min (acc=0.8430, best_acc=0.8430)
+2025-12-06T17:34:32 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:34:32 [INFO]    Fold 1/5 finished in 1.78 min
+2025-12-06T17:36:31 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:36:31 [INFO]    Fold 2/5 finished in 1.99 min
+2025-12-06T17:38:13 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:38:13 [INFO]    Fold 3/5 finished in 1.70 min
+2025-12-06T17:39:51 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:39:51 [INFO]    Fold 4/5 finished in 1.63 min
+2025-12-06T17:41:54 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:41:54 [INFO]    Fold 5/5 finished in 2.04 min
+2025-12-06T17:41:54 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:41:54 [INFO] Iteration 3 finished in 9.15 min (acc=0.8433, best_acc=0.8433)
+2025-12-06T17:43:21 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:43:21 [INFO]    Fold 1/5 finished in 1.46 min
+2025-12-06T17:44:31 [train_12_08_07_53_xgboost_train] INFO: Initialized logger.
+2025-12-06T17:44:32 [train_12_08_07_53_xgboost_train] INFO: Number of single-cells total per plate:
+2025-12-06T17:44:32 [train_12_08_07_53_xgboost_train] INFO: Plate 3: 10206
+2025-12-06T17:44:32 [train_12_08_07_53_xgboost_train] INFO: Plate 3 prime: 5126
+2025-12-06T17:44:32 [train_12_08_07_53_xgboost_train] INFO: Plate 5: 5348
+2025-12-06T17:44:34 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:44:34 [INFO] Loaded Optuna study 'xgb_cv' with 4 total trials (3 completed). Target total trials = 20. Running 17 new trials in this session.
+2025-12-06T17:50:04 [train_12_08_07_53_xgboost_train] INFO: Initialized logger.
+2025-12-06T17:50:05 [train_12_08_07_53_xgboost_train] INFO: Number of single-cells total per plate:
+2025-12-06T17:50:05 [train_12_08_07_53_xgboost_train] INFO: Plate 3: 10206
+2025-12-06T17:50:05 [train_12_08_07_53_xgboost_train] INFO: Plate 3 prime: 5126
+2025-12-06T17:50:05 [train_12_08_07_53_xgboost_train] INFO: Plate 5: 5348
+2025-12-06T17:50:08 [train_12_08_07_53_xgboost_train] INFO: 2025-12-06T17:50:08 [INFO] Loaded Optuna study 'xgb_cv' with 0 total trials (0 completed). Target total trials = 30. Running 30 new trials in this session.
