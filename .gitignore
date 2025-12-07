@@ -11,3 +11,5 @@ __pycache__/
 sc_crops*
 # Nested painting repo
 nf1_painting_repo/
+
+logarchive/

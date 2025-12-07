@@ -1,5 +1,49 @@
 [![DOI](https://zenodo.org/badge/DOI/latest.svg)](https://doi.org/10.5281/zenodo.16539373)
 
+## NF1 Schwann Cell Morphology: Extended Classifier Models
+
+I am a part-time M.S. student in Artificial Intelligence at the University of Texas at Austin. This repository is a fork and extension of the work by the original authors:
+
+> Way GP, Nelson CJ, et al. "A morphological signature for NF1 loss in human Schwann cells using Cell Painting."
+>
+> Code: https://github.com/WayScience/nf1_schwann_cell_morphology_signature  
+> Data pipeline: https://github.com/WayScience/nf1_cellpainting_data  
+> Paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC12026412/  
+> Original Cell Painting datasets:  
+> https://figshare.com/projects/NF1_Schwann_Cell_Genotype_Cell_Painting_Assay/161620  
+
+All data collection, imaging, feature extraction (CellProfiler, CytoTable, pycytominer), and the original exploratory data analysis and modeling were designed and implemented by the authors of the above work. This fork builds on their open-source analysis to explore additional classification approaches for NF1 genotype prediction from Cell Painting features.
+
+### Project goal
+
+The initial goal of this fork is to test whether we can improve upon the baseline logistic regression models used in the original work by experimenting with alternative machine learning methods on the same feature space. As a first step, I am:
+
+- Adding and evaluating a Random Forest classifier as part of the capstone project for my AI in Healthcare course.
+- Beginning to experiment with XGBoost as an additional non-linear baseline for NF1 genotype classification.
+
+### Status
+
+- Forked the original repository and reproduced the baseline setup where possible.
+- Implemented a Random Forest classifier and compared performance against logistic regression.
+- Started integrating XGBoost-based models for further comparison.
+- Planning a potential extension of this work into a Master's thesis project (Fall 2026 - Spring 2027).
+
+### Attribution and licensing
+
+All core data and original analysis code come from the WayScience nf1 schwann cell morphology signature and related repositories:
+
+- Original analysis: https://github.com/WayScience/nf1_schwann_cell_morphology_signature  
+- Data processing and feature extraction: https://github.com/WayScience/nf1_cellpainting_data  
+
+Please cite the original paper and repositories if you use this work.
+
+My additions are currently limited to:
+
+- New modeling scripts (for example Random Forest, XGBoost, and other alternative classifiers).
+- Extended evaluation and visualization notebooks.
+- Documentation specific to my coursework and planned thesis exploration.
+
+
 # NF1 Schwann cell morphology signature
 
 We aim to characterize cell morphology signatures of neurofibromin in Schwann cells.
