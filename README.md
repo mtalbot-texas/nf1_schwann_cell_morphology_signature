@@ -2,7 +2,7 @@
 
 ## NF1 Schwann Cell Morphology: Extended Classifier Models
 
-I am a part-time M.S. student in Artificial Intelligence at the University of Texas at Austin. This repository is a fork and extension of the work by the original authors:
+I am a part time M.S. student in Artificial Intelligence at the University of Texas at Austin. This repository is a fork and extension of the work by the original authors:
 
 > Way GP, Nelson CJ, et al. "A morphological signature for NF1 loss in human Schwann cells using Cell Painting."
 >
@@ -12,36 +12,39 @@ I am a part-time M.S. student in Artificial Intelligence at the University of Te
 > Original Cell Painting datasets:  
 > https://figshare.com/projects/NF1_Schwann_Cell_Genotype_Cell_Painting_Assay/161620  
 
-All data collection, imaging, feature extraction (CellProfiler, CytoTable, pycytominer), and the original exploratory data analysis and modeling were designed and implemented by the authors of the above work. This fork builds on their open-source analysis to explore additional classification approaches for NF1 genotype prediction from Cell Painting features.
+All data collection, imaging, feature extraction (CellProfiler, CytoTable, pycytominer), and the original exploratory data analysis and modeling were designed and implemented by the authors of the above work. This fork builds on their open source analysis to explore additional classification approaches for NF1 genotype prediction from Cell Painting features.
 
 ### Project goal
 
 The initial goal of this fork is to test whether we can improve upon the baseline logistic regression models used in the original work by experimenting with alternative machine learning methods on the same feature space. As a first step, I am:
 
-- Adding and evaluating a Random Forest classifier as part of the capstone project for my AI in Healthcare course.
-- Beginning to experiment with XGBoost as an additional non-linear baseline for NF1 genotype classification.
+* Adding and evaluating a Random Forest classifier as part of the capstone project for my AI in Healthcare course.  
+* Beginning to experiment with XGBoost as an additional nonlinear baseline for NF1 genotype classification.
+
+In the current set of experiments, XGBoost achieves a small accuracy gain over logistic regression on the original test plates, while logistic regression remains the most stable model when I compare performance across plates.
 
 ### Status
 
-- Forked the original repository and reproduced the baseline setup where possible.
-- Implemented a Random Forest classifier and compared performance against logistic regression.
-- Started integrating XGBoost-based models for further comparison.
-- Planning a potential extension of this work into a Master's thesis project (Fall 2026 - Spring 2027).
+* Forked the original repository and reproduced the baseline setup where possible.  
+* Implemented a Random Forest classifier and compared performance against logistic regression.  
+* Integrated XGBoost models for further comparison on the original train, validation, and test splits.  
+* Evaluated all three models on a held out Plate 6 to obtain an initial view of cross plate generalization.  
+* Planning a potential extension of this work into a Master's thesis project (Fall 2026 through Spring 2027).
 
 ### Attribution and licensing
 
 All core data and original analysis code come from the WayScience nf1 schwann cell morphology signature and related repositories:
 
-- Original analysis: https://github.com/WayScience/nf1_schwann_cell_morphology_signature  
-- Data processing and feature extraction: https://github.com/WayScience/nf1_cellpainting_data  
+* Original analysis: https://github.com/WayScience/nf1_schwann_cell_morphology_signature  
+* Data processing and feature extraction: https://github.com/WayScience/nf1_cellpainting_data  
 
 Please cite the original paper and repositories if you use this work.
 
 My additions are currently limited to:
 
-- New modeling scripts (for example Random Forest, XGBoost, and other alternative classifiers).
-- Extended evaluation and visualization notebooks.
-- Documentation specific to my coursework and planned thesis exploration.
+* New modeling scripts (for example Random Forest, XGBoost, and other alternative classifiers).  
+* Extended evaluation and visualization notebooks, including Optuna based hyperparameter analysis and generalizability checks on Plate 6.  
+* Documentation specific to my coursework and planned thesis exploration.
 
 
 # NF1 Schwann cell morphology signature
