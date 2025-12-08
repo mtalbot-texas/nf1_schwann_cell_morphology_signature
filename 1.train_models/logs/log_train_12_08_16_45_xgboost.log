@@ -217,3 +217,293 @@
 2025-12-07T05:43:19 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T05:43:19 [INFO] Total search time this session: 355.68 min
 2025-12-07T05:43:19 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T05:43:19 [INFO] Best average validation AUC (all completed trials) = 0.9262
 2025-12-07T05:43:19 [train_12_08_16_45_xgboost_train] INFO: Best hyperparameters (global over study) = {'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.85, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T10:09:15 [train_12_08_16_45_xgboost_train] INFO: Initialized logger.
+2025-12-07T10:09:16 [train_12_08_16_45_xgboost_train] INFO: Number of single-cells total per plate:
+2025-12-07T10:09:16 [train_12_08_16_45_xgboost_train] INFO: Plate 3: 10206
+2025-12-07T10:09:16 [train_12_08_16_45_xgboost_train] INFO: Plate 3 prime: 5126
+2025-12-07T10:09:16 [train_12_08_16_45_xgboost_train] INFO: Plate 5: 5348
+2025-12-07T10:09:17 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:09:17 [INFO] Loaded Optuna study 'xgb_cv_v2' with 60 total trials (60 completed). Target total trials = 100. Running 40 new trials in this session.
+2025-12-07T10:09:17 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:09:17 [INFO] Iteration 61/100: Optuna trial 60, params={'n_estimators': 800, 'max_depth': 3, 'learning_rate': 0.05, 'subsample': 0.85, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 3.0, 'alpha': 0.0}
+2025-12-07T10:10:59 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:10:59 [INFO]    Fold 1/5 finished in 1.70 min
+2025-12-07T10:12:52 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:12:52 [INFO]    Fold 2/5 finished in 1.88 min
+2025-12-07T10:15:14 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:15:14 [INFO]    Fold 3/5 finished in 2.36 min
+2025-12-07T10:17:11 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:17:11 [INFO]    Fold 4/5 finished in 1.96 min
+2025-12-07T10:19:23 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:19:23 [INFO]    Fold 5/5 finished in 2.20 min
+2025-12-07T10:19:23 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:19:23 [INFO] Iteration 61 finished in 10.09 min (AUC=0.9186 ± 0.0046, ACC=0.8402, Null_recall=0.8416, WT_recall=0.8388, Null_precision=0.8394, best_AUC=0.9262)
+2025-12-07T10:19:23 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:19:23 [INFO] Iteration 62/100: Optuna trial 61, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.85, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T10:22:29 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:22:29 [INFO]    Fold 1/5 finished in 3.11 min
+2025-12-07T10:25:36 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:25:36 [INFO]    Fold 2/5 finished in 3.12 min
+2025-12-07T10:28:44 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:28:44 [INFO]    Fold 3/5 finished in 3.12 min
+2025-12-07T10:31:48 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:31:48 [INFO]    Fold 4/5 finished in 3.08 min
+2025-12-07T10:35:13 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:35:13 [INFO]    Fold 5/5 finished in 3.41 min
+2025-12-07T10:35:13 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:35:13 [INFO] Iteration 62 finished in 15.83 min (AUC=0.9253 ± 0.0046, ACC=0.8484, Null_recall=0.8509, WT_recall=0.8458, Null_precision=0.8467, best_AUC=0.9262)
+2025-12-07T10:35:13 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:35:13 [INFO] Iteration 63/100: Optuna trial 62, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.85, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T10:38:03 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:38:03 [INFO]    Fold 1/5 finished in 2.83 min
+2025-12-07T10:40:57 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:40:57 [INFO]    Fold 2/5 finished in 2.90 min
+2025-12-07T10:44:03 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:44:03 [INFO]    Fold 3/5 finished in 3.09 min
+2025-12-07T10:47:09 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:47:09 [INFO]    Fold 4/5 finished in 3.11 min
+2025-12-07T10:49:44 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:49:44 [INFO]    Fold 5/5 finished in 2.58 min
+2025-12-07T10:49:44 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:49:44 [INFO] Iteration 63 finished in 14.51 min (AUC=0.9253 ± 0.0046, ACC=0.8484, Null_recall=0.8509, WT_recall=0.8458, Null_precision=0.8467, best_AUC=0.9262)
+2025-12-07T10:49:44 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:49:44 [INFO] Iteration 64/100: Optuna trial 63, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T10:51:50 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:51:50 [INFO]    Fold 1/5 finished in 2.10 min
+2025-12-07T10:54:55 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:54:55 [INFO]    Fold 2/5 finished in 3.09 min
+2025-12-07T10:57:46 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T10:57:46 [INFO]    Fold 3/5 finished in 2.86 min
+2025-12-07T11:00:30 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:00:30 [INFO]    Fold 4/5 finished in 2.72 min
+2025-12-07T11:03:08 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:03:08 [INFO]    Fold 5/5 finished in 2.64 min
+2025-12-07T11:03:08 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:03:08 [INFO] Iteration 64 finished in 13.41 min (AUC=0.9252 ± 0.0045, ACC=0.8495, Null_recall=0.8540, WT_recall=0.8450, Null_precision=0.8465, best_AUC=0.9262)
+2025-12-07T11:03:09 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:03:09 [INFO] Iteration 65/100: Optuna trial 64, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T11:05:39 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:05:39 [INFO]    Fold 1/5 finished in 2.51 min
+2025-12-07T11:08:01 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:08:01 [INFO]    Fold 2/5 finished in 2.37 min
+2025-12-07T11:10:04 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:10:04 [INFO]    Fold 3/5 finished in 2.05 min
+2025-12-07T11:12:32 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:12:32 [INFO]    Fold 4/5 finished in 2.46 min
+2025-12-07T11:15:31 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:15:31 [INFO]    Fold 5/5 finished in 2.99 min
+2025-12-07T11:15:31 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:15:31 [INFO] Iteration 65 finished in 12.38 min (AUC=0.9252 ± 0.0045, ACC=0.8495, Null_recall=0.8540, WT_recall=0.8450, Null_precision=0.8465, best_AUC=0.9262)
+2025-12-07T11:15:31 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:15:31 [INFO] Iteration 66/100: Optuna trial 65, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.85, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T11:18:06 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:18:06 [INFO]    Fold 1/5 finished in 2.58 min
+2025-12-07T11:21:20 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:21:20 [INFO]    Fold 2/5 finished in 3.23 min
+2025-12-07T11:24:13 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:24:13 [INFO]    Fold 3/5 finished in 2.89 min
+2025-12-07T11:27:14 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:27:14 [INFO]    Fold 4/5 finished in 3.01 min
+2025-12-07T11:29:45 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:29:45 [INFO]    Fold 5/5 finished in 2.52 min
+2025-12-07T11:29:45 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:29:45 [INFO] Iteration 66 finished in 14.23 min (AUC=0.9253 ± 0.0046, ACC=0.8484, Null_recall=0.8509, WT_recall=0.8458, Null_precision=0.8467, best_AUC=0.9262)
+2025-12-07T11:29:45 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:29:45 [INFO] Iteration 67/100: Optuna trial 66, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T11:32:34 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:32:34 [INFO]    Fold 1/5 finished in 2.80 min
+2025-12-07T11:35:52 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:35:52 [INFO]    Fold 2/5 finished in 3.31 min
+2025-12-07T11:38:23 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:38:23 [INFO]    Fold 3/5 finished in 2.51 min
+2025-12-07T11:41:05 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:41:05 [INFO]    Fold 4/5 finished in 2.69 min
+2025-12-07T11:44:19 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:44:19 [INFO]    Fold 5/5 finished in 3.25 min
+2025-12-07T11:44:19 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:44:19 [INFO] Iteration 67 finished in 14.57 min (AUC=0.9252 ± 0.0045, ACC=0.8495, Null_recall=0.8540, WT_recall=0.8450, Null_precision=0.8465, best_AUC=0.9262)
+2025-12-07T11:44:20 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:44:20 [INFO] Iteration 68/100: Optuna trial 67, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.03, 'subsample': 0.7, 'colsample_bytree': 0.85, 'min_child_weight': 3, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T11:46:59 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:46:59 [INFO]    Fold 1/5 finished in 2.67 min
+2025-12-07T11:50:04 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:50:04 [INFO]    Fold 2/5 finished in 3.07 min
+2025-12-07T11:52:55 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:52:55 [INFO]    Fold 3/5 finished in 2.86 min
+2025-12-07T11:55:59 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:55:59 [INFO]    Fold 4/5 finished in 3.07 min
+2025-12-07T11:59:35 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:59:35 [INFO]    Fold 5/5 finished in 3.60 min
+2025-12-07T11:59:35 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:59:35 [INFO] Iteration 68 finished in 15.26 min (AUC=0.9199 ± 0.0044, ACC=0.8425, Null_recall=0.8440, WT_recall=0.8411, Null_precision=0.8417, best_AUC=0.9262)
+2025-12-07T11:59:35 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T11:59:35 [INFO] Iteration 69/100: Optuna trial 68, params={'n_estimators': 400, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T12:01:20 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:01:20 [INFO]    Fold 1/5 finished in 1.74 min
+2025-12-07T12:02:59 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:02:59 [INFO]    Fold 2/5 finished in 1.66 min
+2025-12-07T12:04:32 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:04:32 [INFO]    Fold 3/5 finished in 1.54 min
+2025-12-07T12:06:17 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:06:17 [INFO]    Fold 4/5 finished in 1.77 min
+2025-12-07T12:08:09 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:08:09 [INFO]    Fold 5/5 finished in 1.87 min
+2025-12-07T12:08:09 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:08:09 [INFO] Iteration 69 finished in 8.57 min (AUC=0.9158 ± 0.0046, ACC=0.8370, Null_recall=0.8382, WT_recall=0.8359, Null_precision=0.8364, best_AUC=0.9262)
+2025-12-07T12:08:09 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:08:09 [INFO] Iteration 70/100: Optuna trial 69, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.1, 'lambda': 5.0, 'alpha': 1.0}
+2025-12-07T12:11:26 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:11:26 [INFO]    Fold 1/5 finished in 3.28 min
+2025-12-07T12:14:16 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:14:16 [INFO]    Fold 2/5 finished in 2.83 min
+2025-12-07T12:17:40 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:17:40 [INFO]    Fold 3/5 finished in 3.41 min
+2025-12-07T12:21:35 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:21:35 [INFO]    Fold 4/5 finished in 3.92 min
+2025-12-07T12:25:11 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:25:11 [INFO]    Fold 5/5 finished in 3.59 min
+2025-12-07T12:25:11 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:25:11 [INFO] Iteration 70 finished in 17.03 min (AUC=0.9246 ± 0.0045, ACC=0.8490, Null_recall=0.8518, WT_recall=0.8462, Null_precision=0.8471, best_AUC=0.9262)
+2025-12-07T12:25:11 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:25:11 [INFO] Iteration 71/100: Optuna trial 70, params={'n_estimators': 600, 'max_depth': 3, 'learning_rate': 0.05, 'subsample': 0.85, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T12:26:59 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:26:59 [INFO]    Fold 1/5 finished in 1.80 min
+2025-12-07T12:28:53 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:28:53 [INFO]    Fold 2/5 finished in 1.90 min
+2025-12-07T12:31:12 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:31:12 [INFO]    Fold 3/5 finished in 2.32 min
+2025-12-07T12:33:13 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:33:13 [INFO]    Fold 4/5 finished in 2.02 min
+2025-12-07T12:35:20 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:35:20 [INFO]    Fold 5/5 finished in 2.12 min
+2025-12-07T12:35:20 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:35:20 [INFO] Iteration 71 finished in 10.15 min (AUC=0.9140 ± 0.0041, ACC=0.8342, Null_recall=0.8337, WT_recall=0.8347, Null_precision=0.8346, best_AUC=0.9262)
+2025-12-07T12:35:20 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:35:20 [INFO] Iteration 72/100: Optuna trial 71, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T12:39:50 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:39:50 [INFO]    Fold 1/5 finished in 4.49 min
+2025-12-07T12:43:01 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:43:01 [INFO]    Fold 2/5 finished in 3.18 min
+2025-12-07T12:46:55 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:46:55 [INFO]    Fold 3/5 finished in 3.90 min
+2025-12-07T12:50:58 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:50:58 [INFO]    Fold 4/5 finished in 4.06 min
+2025-12-07T12:54:52 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:54:52 [INFO]    Fold 5/5 finished in 3.90 min
+2025-12-07T12:54:52 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:54:52 [INFO] Iteration 72 finished in 19.53 min (AUC=0.9252 ± 0.0045, ACC=0.8495, Null_recall=0.8540, WT_recall=0.8450, Null_precision=0.8465, best_AUC=0.9262)
+2025-12-07T12:54:52 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:54:52 [INFO] Iteration 73/100: Optuna trial 72, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T12:58:49 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T12:58:49 [INFO]    Fold 1/5 finished in 3.94 min
+2025-12-07T13:02:26 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:02:26 [INFO]    Fold 2/5 finished in 3.61 min
+2025-12-07T13:06:00 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:06:00 [INFO]    Fold 3/5 finished in 3.57 min
+2025-12-07T13:09:43 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:09:43 [INFO]    Fold 4/5 finished in 3.72 min
+2025-12-07T13:12:57 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:12:57 [INFO]    Fold 5/5 finished in 3.24 min
+2025-12-07T13:12:57 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:12:57 [INFO] Iteration 73 finished in 18.08 min (AUC=0.9252 ± 0.0045, ACC=0.8495, Null_recall=0.8540, WT_recall=0.8450, Null_precision=0.8465, best_AUC=0.9262)
+2025-12-07T13:12:57 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:12:57 [INFO] Iteration 74/100: Optuna trial 73, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T13:16:08 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:16:08 [INFO]    Fold 1/5 finished in 3.18 min
+2025-12-07T13:19:09 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:19:09 [INFO]    Fold 2/5 finished in 3.01 min
+2025-12-07T13:22:43 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:22:43 [INFO]    Fold 3/5 finished in 3.56 min
+2025-12-07T13:25:55 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:25:55 [INFO]    Fold 4/5 finished in 3.21 min
+2025-12-07T13:29:02 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:29:02 [INFO]    Fold 5/5 finished in 3.11 min
+2025-12-07T13:29:02 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:29:02 [INFO] Iteration 74 finished in 16.08 min (AUC=0.9252 ± 0.0045, ACC=0.8495, Null_recall=0.8540, WT_recall=0.8450, Null_precision=0.8465, best_AUC=0.9262)
+2025-12-07T13:29:02 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:29:02 [INFO] Iteration 75/100: Optuna trial 74, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T13:32:38 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:32:38 [INFO]    Fold 1/5 finished in 3.59 min
+2025-12-07T13:36:18 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:36:18 [INFO]    Fold 2/5 finished in 3.67 min
+2025-12-07T13:40:01 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:40:01 [INFO]    Fold 3/5 finished in 3.72 min
+2025-12-07T13:43:34 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:43:34 [INFO]    Fold 4/5 finished in 3.54 min
+2025-12-07T13:46:47 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:46:47 [INFO]    Fold 5/5 finished in 3.22 min
+2025-12-07T13:46:47 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:46:47 [INFO] Iteration 75 finished in 17.74 min (AUC=0.9252 ± 0.0045, ACC=0.8495, Null_recall=0.8540, WT_recall=0.8450, Null_precision=0.8465, best_AUC=0.9262)
+2025-12-07T13:46:47 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:46:47 [INFO] Iteration 76/100: Optuna trial 75, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 3.0, 'alpha': 0.5}
+2025-12-07T13:50:15 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:50:15 [INFO]    Fold 1/5 finished in 3.47 min
+2025-12-07T13:53:54 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:53:54 [INFO]    Fold 2/5 finished in 3.65 min
+2025-12-07T13:57:23 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T13:57:23 [INFO]    Fold 3/5 finished in 3.48 min
+2025-12-07T14:00:55 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:00:55 [INFO]    Fold 4/5 finished in 3.54 min
+2025-12-07T14:03:59 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:03:59 [INFO]    Fold 5/5 finished in 3.06 min
+2025-12-07T14:03:59 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:03:59 [INFO] Iteration 76 finished in 17.20 min (AUC=0.9236 ± 0.0042, ACC=0.8483, Null_recall=0.8513, WT_recall=0.8453, Null_precision=0.8464, best_AUC=0.9262)
+2025-12-07T14:03:59 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:03:59 [INFO] Iteration 77/100: Optuna trial 76, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 3, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T14:07:06 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:07:06 [INFO]    Fold 1/5 finished in 3.11 min
+2025-12-07T14:10:07 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:10:07 [INFO]    Fold 2/5 finished in 3.03 min
+2025-12-07T14:13:02 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:13:02 [INFO]    Fold 3/5 finished in 2.90 min
+2025-12-07T14:15:58 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:15:58 [INFO]    Fold 4/5 finished in 2.93 min
+2025-12-07T14:18:48 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:18:48 [INFO]    Fold 5/5 finished in 2.85 min
+2025-12-07T14:18:48 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:18:48 [INFO] Iteration 77 finished in 14.82 min (AUC=0.9251 ± 0.0044, ACC=0.8487, Null_recall=0.8536, WT_recall=0.8437, Null_precision=0.8454, best_AUC=0.9262)
+2025-12-07T14:18:48 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:18:48 [INFO] Iteration 78/100: Optuna trial 77, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.0}
+2025-12-07T14:21:56 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:21:56 [INFO]    Fold 1/5 finished in 3.13 min
+2025-12-07T14:25:06 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:25:06 [INFO]    Fold 2/5 finished in 3.17 min
+2025-12-07T14:28:15 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:28:15 [INFO]    Fold 3/5 finished in 3.15 min
+2025-12-07T14:31:47 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:31:47 [INFO]    Fold 4/5 finished in 3.53 min
+2025-12-07T14:35:12 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:35:12 [INFO]    Fold 5/5 finished in 3.41 min
+2025-12-07T14:35:12 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:35:12 [INFO] Iteration 78 finished in 16.39 min (AUC=0.9249 ± 0.0048, ACC=0.8491, Null_recall=0.8499, WT_recall=0.8483, Null_precision=0.8487, best_AUC=0.9262)
+2025-12-07T14:35:12 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:35:12 [INFO] Iteration 79/100: Optuna trial 78, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.03, 'subsample': 0.7, 'colsample_bytree': 0.85, 'min_child_weight': 5, 'gamma': 0.1, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T14:38:40 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:38:40 [INFO]    Fold 1/5 finished in 3.46 min
+2025-12-07T14:42:19 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:42:19 [INFO]    Fold 2/5 finished in 3.65 min
+2025-12-07T14:44:46 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:44:46 [INFO]    Fold 3/5 finished in 2.45 min
+2025-12-07T14:45:27 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:45:27 [INFO]    Fold 4/5 finished in 0.68 min
+2025-12-07T14:46:08 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:46:08 [INFO]    Fold 5/5 finished in 0.68 min
+2025-12-07T14:46:08 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:46:08 [INFO] Iteration 79 finished in 10.93 min (AUC=0.9195 ± 0.0044, ACC=0.8421, Null_recall=0.8433, WT_recall=0.8408, Null_precision=0.8413, best_AUC=0.9262)
+2025-12-07T14:46:08 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:46:08 [INFO] Iteration 80/100: Optuna trial 79, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T14:46:50 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:46:50 [INFO]    Fold 1/5 finished in 0.70 min
+2025-12-07T14:47:30 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:47:30 [INFO]    Fold 2/5 finished in 0.66 min
+2025-12-07T14:48:08 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:48:08 [INFO]    Fold 3/5 finished in 0.64 min
+2025-12-07T14:48:47 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:48:47 [INFO]    Fold 4/5 finished in 0.65 min
+2025-12-07T14:49:28 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:49:28 [INFO]    Fold 5/5 finished in 0.67 min
+2025-12-07T14:49:28 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:49:28 [INFO] Iteration 80 finished in 3.33 min (AUC=0.9252 ± 0.0045, ACC=0.8495, Null_recall=0.8540, WT_recall=0.8450, Null_precision=0.8465, best_AUC=0.9262)
+2025-12-07T14:49:28 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:49:28 [INFO] Iteration 81/100: Optuna trial 80, params={'n_estimators': 400, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T14:49:50 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:49:50 [INFO]    Fold 1/5 finished in 0.36 min
+2025-12-07T14:50:12 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:50:12 [INFO]    Fold 2/5 finished in 0.36 min
+2025-12-07T14:50:33 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:50:33 [INFO]    Fold 3/5 finished in 0.36 min
+2025-12-07T14:50:55 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:50:55 [INFO]    Fold 4/5 finished in 0.37 min
+2025-12-07T14:51:17 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:51:17 [INFO]    Fold 5/5 finished in 0.36 min
+2025-12-07T14:51:17 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:51:17 [INFO] Iteration 81 finished in 1.82 min (AUC=0.9158 ± 0.0046, ACC=0.8370, Null_recall=0.8382, WT_recall=0.8359, Null_precision=0.8364, best_AUC=0.9262)
+2025-12-07T14:51:17 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:51:17 [INFO] Iteration 82/100: Optuna trial 81, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T14:51:59 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:51:59 [INFO]    Fold 1/5 finished in 0.69 min
+2025-12-07T14:52:40 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:52:40 [INFO]    Fold 2/5 finished in 0.68 min
+2025-12-07T14:53:21 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:53:21 [INFO]    Fold 3/5 finished in 0.68 min
+2025-12-07T14:54:01 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:54:01 [INFO]    Fold 4/5 finished in 0.67 min
+2025-12-07T14:54:42 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:54:42 [INFO]    Fold 5/5 finished in 0.69 min
+2025-12-07T14:54:42 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:54:42 [INFO] Iteration 82 finished in 3.42 min (AUC=0.9252 ± 0.0045, ACC=0.8495, Null_recall=0.8540, WT_recall=0.8450, Null_precision=0.8465, best_AUC=0.9262)
+2025-12-07T14:54:42 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:54:42 [INFO] Iteration 83/100: Optuna trial 82, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T14:55:24 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:55:24 [INFO]    Fold 1/5 finished in 0.70 min
+2025-12-07T14:56:07 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:56:07 [INFO]    Fold 2/5 finished in 0.71 min
+2025-12-07T14:56:49 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:56:49 [INFO]    Fold 3/5 finished in 0.70 min
+2025-12-07T14:57:34 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:57:34 [INFO]    Fold 4/5 finished in 0.74 min
+2025-12-07T14:58:17 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:58:17 [INFO]    Fold 5/5 finished in 0.72 min
+2025-12-07T14:58:17 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:58:17 [INFO] Iteration 83 finished in 3.57 min (AUC=0.9252 ± 0.0045, ACC=0.8495, Null_recall=0.8540, WT_recall=0.8450, Null_precision=0.8465, best_AUC=0.9262)
+2025-12-07T14:58:17 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:58:17 [INFO] Iteration 84/100: Optuna trial 83, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T14:59:03 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:59:03 [INFO]    Fold 1/5 finished in 0.77 min
+2025-12-07T14:59:45 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T14:59:45 [INFO]    Fold 2/5 finished in 0.69 min
+2025-12-07T15:00:26 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:00:26 [INFO]    Fold 3/5 finished in 0.69 min
+2025-12-07T15:01:07 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:01:07 [INFO]    Fold 4/5 finished in 0.68 min
+2025-12-07T15:01:46 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:01:46 [INFO]    Fold 5/5 finished in 0.65 min
+2025-12-07T15:01:46 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:01:46 [INFO] Iteration 84 finished in 3.48 min (AUC=0.9252 ± 0.0045, ACC=0.8495, Null_recall=0.8540, WT_recall=0.8450, Null_precision=0.8465, best_AUC=0.9262)
+2025-12-07T15:01:46 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:01:46 [INFO] Iteration 85/100: Optuna trial 84, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T15:02:29 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:02:29 [INFO]    Fold 1/5 finished in 0.72 min
+2025-12-07T15:03:10 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:03:10 [INFO]    Fold 2/5 finished in 0.68 min
+2025-12-07T15:03:50 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:03:50 [INFO]    Fold 3/5 finished in 0.68 min
+2025-12-07T15:04:31 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:04:31 [INFO]    Fold 4/5 finished in 0.68 min
+2025-12-07T15:05:11 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:05:11 [INFO]    Fold 5/5 finished in 0.67 min
+2025-12-07T15:05:11 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:05:11 [INFO] Iteration 85 finished in 3.42 min (AUC=0.9252 ± 0.0045, ACC=0.8495, Null_recall=0.8540, WT_recall=0.8450, Null_precision=0.8465, best_AUC=0.9262)
+2025-12-07T15:05:11 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:05:11 [INFO] Iteration 86/100: Optuna trial 85, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 5.0, 'alpha': 0.5}
+2025-12-07T15:05:53 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:05:53 [INFO]    Fold 1/5 finished in 0.70 min
+2025-12-07T15:06:36 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:06:36 [INFO]    Fold 2/5 finished in 0.72 min
+2025-12-07T15:07:21 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:07:21 [INFO]    Fold 3/5 finished in 0.74 min
+2025-12-07T15:08:09 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:08:09 [INFO]    Fold 4/5 finished in 0.79 min
+2025-12-07T15:08:49 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:08:49 [INFO]    Fold 5/5 finished in 0.67 min
+2025-12-07T15:08:49 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:08:49 [INFO] Iteration 86 finished in 3.63 min (AUC=0.9245 ± 0.0041, ACC=0.8467, Null_recall=0.8494, WT_recall=0.8440, Null_precision=0.8450, best_AUC=0.9262)
+2025-12-07T15:08:49 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:08:49 [INFO] Iteration 87/100: Optuna trial 86, params={'n_estimators': 800, 'max_depth': 3, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T15:09:20 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:09:20 [INFO]    Fold 1/5 finished in 0.51 min
+2025-12-07T15:09:51 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:09:51 [INFO]    Fold 2/5 finished in 0.51 min
+2025-12-07T15:10:23 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:10:23 [INFO]    Fold 3/5 finished in 0.54 min
+2025-12-07T15:10:54 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:10:54 [INFO]    Fold 4/5 finished in 0.52 min
+2025-12-07T15:11:24 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:11:24 [INFO]    Fold 5/5 finished in 0.51 min
+2025-12-07T15:11:24 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:11:24 [INFO] Iteration 87 finished in 2.59 min (AUC=0.9200 ± 0.0048, ACC=0.8427, Null_recall=0.8442, WT_recall=0.8413, Null_precision=0.8420, best_AUC=0.9262)
+2025-12-07T15:11:24 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:11:24 [INFO] Iteration 88/100: Optuna trial 87, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.85, 'colsample_bytree': 0.7, 'min_child_weight': 3, 'gamma': 0.3, 'lambda': 3.0, 'alpha': 1.0}
+2025-12-07T15:12:04 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:12:04 [INFO]    Fold 1/5 finished in 0.67 min
+2025-12-07T15:12:45 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:12:45 [INFO]    Fold 2/5 finished in 0.67 min
+2025-12-07T15:13:25 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:13:25 [INFO]    Fold 3/5 finished in 0.67 min
+2025-12-07T15:14:15 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:14:15 [INFO]    Fold 4/5 finished in 0.82 min
+2025-12-07T15:14:58 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:14:58 [INFO]    Fold 5/5 finished in 0.72 min
+2025-12-07T15:14:58 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:14:58 [INFO] Iteration 88 finished in 3.56 min (AUC=0.9251 ± 0.0040, ACC=0.8459, Null_recall=0.8488, WT_recall=0.8430, Null_precision=0.8440, best_AUC=0.9262)
+2025-12-07T15:14:58 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:14:58 [INFO] Iteration 89/100: Optuna trial 88, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T15:15:39 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:15:39 [INFO]    Fold 1/5 finished in 0.69 min
+2025-12-07T15:16:21 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:16:21 [INFO]    Fold 2/5 finished in 0.69 min
+2025-12-07T15:17:02 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:17:02 [INFO]    Fold 3/5 finished in 0.68 min
+2025-12-07T15:17:44 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:17:44 [INFO]    Fold 4/5 finished in 0.69 min
+2025-12-07T15:18:28 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:18:28 [INFO]    Fold 5/5 finished in 0.73 min
+2025-12-07T15:18:28 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:18:28 [INFO] Iteration 89 finished in 3.49 min (AUC=0.9252 ± 0.0045, ACC=0.8495, Null_recall=0.8540, WT_recall=0.8450, Null_precision=0.8465, best_AUC=0.9262)
+2025-12-07T15:18:28 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:18:28 [INFO] Iteration 90/100: Optuna trial 89, params={'n_estimators': 600, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.1, 'lambda': 1.0, 'alpha': 0.0}
+2025-12-07T15:18:58 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:18:58 [INFO]    Fold 1/5 finished in 0.51 min
+2025-12-07T15:19:28 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:19:28 [INFO]    Fold 2/5 finished in 0.51 min
+2025-12-07T15:19:59 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:19:59 [INFO]    Fold 3/5 finished in 0.51 min
+2025-12-07T15:20:31 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:20:31 [INFO]    Fold 4/5 finished in 0.53 min
+2025-12-07T15:21:05 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:21:05 [INFO]    Fold 5/5 finished in 0.56 min
+2025-12-07T15:21:05 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:21:05 [INFO] Iteration 90 finished in 2.61 min (AUC=0.9208 ± 0.0041, ACC=0.8422, Null_recall=0.8457, WT_recall=0.8387, Null_precision=0.8399, best_AUC=0.9262)
+2025-12-07T15:21:05 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:21:05 [INFO] Iteration 91/100: Optuna trial 90, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.03, 'subsample': 0.7, 'colsample_bytree': 0.85, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T15:21:48 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:21:48 [INFO]    Fold 1/5 finished in 0.72 min
+2025-12-07T15:22:31 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:22:31 [INFO]    Fold 2/5 finished in 0.72 min
+2025-12-07T15:23:14 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:23:14 [INFO]    Fold 3/5 finished in 0.72 min
+2025-12-07T15:23:58 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:23:58 [INFO]    Fold 4/5 finished in 0.72 min
+2025-12-07T15:24:42 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:24:42 [INFO]    Fold 5/5 finished in 0.74 min
+2025-12-07T15:24:42 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:24:42 [INFO] Iteration 91 finished in 3.63 min (AUC=0.9200 ± 0.0043, ACC=0.8433, Null_recall=0.8447, WT_recall=0.8420, Null_precision=0.8427, best_AUC=0.9262)
+2025-12-07T15:24:42 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:24:42 [INFO] Iteration 92/100: Optuna trial 91, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T15:25:25 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:25:25 [INFO]    Fold 1/5 finished in 0.71 min
+2025-12-07T15:26:07 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:26:07 [INFO]    Fold 2/5 finished in 0.70 min
+2025-12-07T15:26:48 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:26:48 [INFO]    Fold 3/5 finished in 0.68 min
+2025-12-07T15:27:29 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:27:29 [INFO]    Fold 4/5 finished in 0.69 min
+2025-12-07T15:28:11 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:28:11 [INFO]    Fold 5/5 finished in 0.70 min
+2025-12-07T15:28:11 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:28:11 [INFO] Iteration 92 finished in 3.47 min (AUC=0.9252 ± 0.0045, ACC=0.8495, Null_recall=0.8540, WT_recall=0.8450, Null_precision=0.8465, best_AUC=0.9262)
+2025-12-07T15:28:11 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:28:11 [INFO] Iteration 93/100: Optuna trial 92, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T15:28:52 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:28:52 [INFO]    Fold 1/5 finished in 0.68 min
+2025-12-07T15:29:32 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:29:32 [INFO]    Fold 2/5 finished in 0.68 min
+2025-12-07T15:30:13 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:30:13 [INFO]    Fold 3/5 finished in 0.68 min
+2025-12-07T15:30:55 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:30:55 [INFO]    Fold 4/5 finished in 0.71 min
+2025-12-07T15:31:37 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:31:37 [INFO]    Fold 5/5 finished in 0.69 min
+2025-12-07T15:31:37 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:31:37 [INFO] Iteration 93 finished in 3.43 min (AUC=0.9252 ± 0.0045, ACC=0.8495, Null_recall=0.8540, WT_recall=0.8450, Null_precision=0.8465, best_AUC=0.9262)
+2025-12-07T15:31:37 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:31:37 [INFO] Iteration 94/100: Optuna trial 93, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T15:32:18 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:32:18 [INFO]    Fold 1/5 finished in 0.68 min
+2025-12-07T15:32:58 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:32:58 [INFO]    Fold 2/5 finished in 0.67 min
+2025-12-07T15:33:39 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:33:39 [INFO]    Fold 3/5 finished in 0.69 min
+2025-12-07T15:34:20 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:34:20 [INFO]    Fold 4/5 finished in 0.68 min
+2025-12-07T15:35:02 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:35:02 [INFO]    Fold 5/5 finished in 0.70 min
+2025-12-07T15:35:02 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:35:02 [INFO] Iteration 94 finished in 3.42 min (AUC=0.9252 ± 0.0045, ACC=0.8495, Null_recall=0.8540, WT_recall=0.8450, Null_precision=0.8465, best_AUC=0.9262)
+2025-12-07T15:35:02 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:35:02 [INFO] Iteration 95/100: Optuna trial 94, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T15:35:45 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:35:45 [INFO]    Fold 1/5 finished in 0.72 min
+2025-12-07T15:36:28 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:36:28 [INFO]    Fold 2/5 finished in 0.72 min
+2025-12-07T15:37:15 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:37:15 [INFO]    Fold 3/5 finished in 0.77 min
+2025-12-07T15:38:01 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:38:01 [INFO]    Fold 4/5 finished in 0.77 min
+2025-12-07T15:38:44 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:38:44 [INFO]    Fold 5/5 finished in 0.73 min
+2025-12-07T15:38:45 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:38:45 [INFO] Iteration 95 finished in 3.71 min (AUC=0.9252 ± 0.0045, ACC=0.8495, Null_recall=0.8540, WT_recall=0.8450, Null_precision=0.8465, best_AUC=0.9262)
+2025-12-07T15:38:45 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:38:45 [INFO] Iteration 96/100: Optuna trial 95, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.85, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T15:39:25 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:39:25 [INFO]    Fold 1/5 finished in 0.67 min
+2025-12-07T15:40:13 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:40:13 [INFO]    Fold 2/5 finished in 0.81 min
+2025-12-07T15:40:57 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:40:57 [INFO]    Fold 3/5 finished in 0.73 min
+2025-12-07T15:41:42 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:41:42 [INFO]    Fold 4/5 finished in 0.74 min
+2025-12-07T15:42:25 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:42:25 [INFO]    Fold 5/5 finished in 0.72 min
+2025-12-07T15:42:25 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:42:25 [INFO] Iteration 96 finished in 3.67 min (AUC=0.9253 ± 0.0046, ACC=0.8484, Null_recall=0.8509, WT_recall=0.8458, Null_precision=0.8467, best_AUC=0.9262)
+2025-12-07T15:42:25 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:42:25 [INFO] Iteration 97/100: Optuna trial 96, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T15:43:07 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:43:07 [INFO]    Fold 1/5 finished in 0.71 min
+2025-12-07T15:43:54 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:43:54 [INFO]    Fold 2/5 finished in 0.78 min
+2025-12-07T15:44:39 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:44:39 [INFO]    Fold 3/5 finished in 0.75 min
+2025-12-07T15:45:24 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:45:24 [INFO]    Fold 4/5 finished in 0.75 min
+2025-12-07T15:46:08 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:46:08 [INFO]    Fold 5/5 finished in 0.73 min
+2025-12-07T15:46:08 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:46:08 [INFO] Iteration 97 finished in 3.72 min (AUC=0.9252 ± 0.0045, ACC=0.8495, Null_recall=0.8540, WT_recall=0.8450, Null_precision=0.8465, best_AUC=0.9262)
+2025-12-07T15:46:08 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:46:08 [INFO] Iteration 98/100: Optuna trial 97, params={'n_estimators': 400, 'max_depth': 3, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T15:46:26 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:46:26 [INFO]    Fold 1/5 finished in 0.30 min
+2025-12-07T15:46:44 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:46:44 [INFO]    Fold 2/5 finished in 0.30 min
+2025-12-07T15:47:02 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:47:02 [INFO]    Fold 3/5 finished in 0.30 min
+2025-12-07T15:47:20 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:47:20 [INFO]    Fold 4/5 finished in 0.31 min
+2025-12-07T15:47:38 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:47:38 [INFO]    Fold 5/5 finished in 0.30 min
+2025-12-07T15:47:38 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:47:38 [INFO] Iteration 98 finished in 1.51 min (AUC=0.9063 ± 0.0051, ACC=0.8257, Null_recall=0.8259, WT_recall=0.8255, Null_precision=0.8258, best_AUC=0.9262)
+2025-12-07T15:47:38 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:47:38 [INFO] Iteration 99/100: Optuna trial 98, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.7, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 5.0, 'alpha': 0.5}
+2025-12-07T15:48:20 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:48:20 [INFO]    Fold 1/5 finished in 0.69 min
+2025-12-07T15:49:26 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:49:26 [INFO]    Fold 2/5 finished in 1.11 min
+2025-12-07T15:50:13 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:50:13 [INFO]    Fold 3/5 finished in 0.78 min
+2025-12-07T15:51:06 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:51:06 [INFO]    Fold 4/5 finished in 0.89 min
+2025-12-07T15:51:48 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:51:48 [INFO]    Fold 5/5 finished in 0.69 min
+2025-12-07T15:51:48 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:51:48 [INFO] Iteration 99 finished in 4.16 min (AUC=0.9245 ± 0.0041, ACC=0.8467, Null_recall=0.8494, WT_recall=0.8440, Null_precision=0.8450, best_AUC=0.9262)
+2025-12-07T15:51:48 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:51:48 [INFO] Iteration 100/100: Optuna trial 99, params={'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.85, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T15:52:28 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:52:28 [INFO]    Fold 1/5 finished in 0.67 min
+2025-12-07T15:53:08 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:53:08 [INFO]    Fold 2/5 finished in 0.65 min
+2025-12-07T15:53:47 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:53:47 [INFO]    Fold 3/5 finished in 0.66 min
+2025-12-07T15:54:26 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:54:26 [INFO]    Fold 4/5 finished in 0.65 min
+2025-12-07T15:55:05 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:55:05 [INFO]    Fold 5/5 finished in 0.65 min
+2025-12-07T15:55:05 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:55:05 [INFO] Iteration 100 finished in 3.28 min (AUC=0.9253 ± 0.0046, ACC=0.8484, Null_recall=0.8509, WT_recall=0.8458, Null_precision=0.8467, best_AUC=0.9262)
+2025-12-07T15:55:05 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:55:05 [INFO] Total search time this session: 345.80 min
+2025-12-07T15:55:05 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:55:05 [INFO] Best average validation AUC (all completed trials) = 0.9262
+2025-12-07T15:55:05 [train_12_08_16_45_xgboost_train] INFO: Best hyperparameters (global over study) = {'n_estimators': 800, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.85, 'colsample_bytree': 0.7, 'min_child_weight': 5, 'gamma': 0.3, 'lambda': 1.0, 'alpha': 0.5}
+2025-12-07T15:55:05 [train_12_08_16_45_xgboost_train] INFO: 2025-12-07T15:55:05 [INFO] No best_eval_data from this session (e.g., no new trials ran). eval_data left empty; global best_hp is taken from the Optuna study.

@@ -1036,3 +1036,411 @@
 2025-12-07T07:25:52 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 525: ACC=0.8131, AUC=0.8890 ± 0.0077, BalAcc=0.8131, Null_recall=0.8176, WT_recall=0.8086, Null_precision=0.8104, best_ACC=0.8139
 2025-12-07T07:25:52 [train_12_08_16_45_logreg_train] INFO: Best average validation accuracy (all completed trials) = 0.8139
 2025-12-07T07:25:52 [train_12_08_16_45_logreg_train] INFO: Best hyperparameters: {'C': 84.37929694207149}
+2025-12-07T10:09:22 [train_12_08_16_45_logreg_train] INFO: Initialized logger.
+2025-12-07T10:09:23 [train_12_08_16_45_logreg_train] INFO: Number of single-cells total per plate:
+2025-12-07T10:09:23 [train_12_08_16_45_logreg_train] INFO: Plate 3: 10206
+2025-12-07T10:09:23 [train_12_08_16_45_logreg_train] INFO: Plate 3 prime: 5126
+2025-12-07T10:09:23 [train_12_08_16_45_logreg_train] INFO: Plate 5: 5348
+2025-12-07T10:09:25 [train_12_08_16_45_logreg_train] INFO: [INFO] Loaded Optuna study 'logreg_cv' with 526 total trials (525 completed). Target total trials = 725. Running 200 new trials in this session.
+2025-12-07T10:09:25 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 526 of 725: trying C = 32.551 (Optuna trial 526)
+2025-12-07T10:11:17 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 526: ACC=0.8129, AUC=0.8890 ± 0.0078, BalAcc=0.8129, Null_recall=0.8168, WT_recall=0.8090, Null_precision=0.8106, best_ACC=0.8139
+2025-12-07T10:11:17 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 527 of 725: trying C = 19.226 (Optuna trial 527)
+2025-12-07T10:13:02 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 527: ACC=0.8132, AUC=0.8890 ± 0.0078, BalAcc=0.8132, Null_recall=0.8173, WT_recall=0.8091, Null_precision=0.8108, best_ACC=0.8139
+2025-12-07T10:13:02 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 528 of 725: trying C = 37.512 (Optuna trial 528)
+2025-12-07T10:14:51 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 528: ACC=0.8134, AUC=0.8890 ± 0.0077, BalAcc=0.8134, Null_recall=0.8174, WT_recall=0.8093, Null_precision=0.8110, best_ACC=0.8139
+2025-12-07T10:14:51 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 529 of 725: trying C = 25.127 (Optuna trial 529)
+2025-12-07T10:16:37 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 529: ACC=0.8130, AUC=0.8890 ± 0.0078, BalAcc=0.8130, Null_recall=0.8173, WT_recall=0.8087, Null_precision=0.8105, best_ACC=0.8139
+2025-12-07T10:16:37 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 530 of 725: trying C = 29.055 (Optuna trial 530)
+2025-12-07T10:18:24 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 530: ACC=0.8130, AUC=0.8890 ± 0.0078, BalAcc=0.8130, Null_recall=0.8170, WT_recall=0.8090, Null_precision=0.8106, best_ACC=0.8139
+2025-12-07T10:18:24 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 531 of 725: trying C = 7.871 (Optuna trial 531)
+2025-12-07T10:20:15 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 531: ACC=0.8126, AUC=0.8891 ± 0.0078, BalAcc=0.8126, Null_recall=0.8173, WT_recall=0.8079, Null_precision=0.8098, best_ACC=0.8139
+2025-12-07T10:20:15 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 532 of 725: trying C = 11.769 (Optuna trial 532)
+2025-12-07T10:22:11 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 532: ACC=0.8127, AUC=0.8891 ± 0.0077, BalAcc=0.8127, Null_recall=0.8173, WT_recall=0.8082, Null_precision=0.8101, best_ACC=0.8139
+2025-12-07T10:22:11 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 533 of 725: trying C = 23.609 (Optuna trial 533)
+2025-12-07T10:24:09 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 533: ACC=0.8132, AUC=0.8891 ± 0.0077, BalAcc=0.8132, Null_recall=0.8174, WT_recall=0.8090, Null_precision=0.8107, best_ACC=0.8139
+2025-12-07T10:24:09 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 534 of 725: trying C = 16.999 (Optuna trial 534)
+2025-12-07T10:26:06 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 534: ACC=0.8129, AUC=0.8890 ± 0.0077, BalAcc=0.8129, Null_recall=0.8174, WT_recall=0.8084, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T10:26:07 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 535 of 725: trying C = 29.620 (Optuna trial 535)
+2025-12-07T10:28:13 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 535: ACC=0.8134, AUC=0.8890 ± 0.0078, BalAcc=0.8134, Null_recall=0.8175, WT_recall=0.8093, Null_precision=0.8110, best_ACC=0.8139
+2025-12-07T10:28:13 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 536 of 725: trying C = 34.660 (Optuna trial 536)
+2025-12-07T10:30:11 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 536: ACC=0.8125, AUC=0.8890 ± 0.0078, BalAcc=0.8125, Null_recall=0.8164, WT_recall=0.8086, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T10:30:11 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 537 of 725: trying C = 22.157 (Optuna trial 537)
+2025-12-07T10:32:06 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 537: ACC=0.8131, AUC=0.8890 ± 0.0078, BalAcc=0.8131, Null_recall=0.8179, WT_recall=0.8082, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T10:32:06 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 538 of 725: trying C = 25.384 (Optuna trial 538)
+2025-12-07T10:34:22 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 538: ACC=0.8136, AUC=0.8890 ± 0.0078, BalAcc=0.8136, Null_recall=0.8176, WT_recall=0.8096, Null_precision=0.8112, best_ACC=0.8139
+2025-12-07T10:34:22 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 539 of 725: trying C = 25.533 (Optuna trial 539)
+2025-12-07T10:36:27 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 539: ACC=0.8132, AUC=0.8890 ± 0.0078, BalAcc=0.8132, Null_recall=0.8179, WT_recall=0.8086, Null_precision=0.8105, best_ACC=0.8139
+2025-12-07T10:36:27 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 540 of 725: trying C = 18.214 (Optuna trial 540)
+2025-12-07T10:38:25 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 540: ACC=0.8132, AUC=0.8890 ± 0.0077, BalAcc=0.8132, Null_recall=0.8175, WT_recall=0.8090, Null_precision=0.8107, best_ACC=0.8139
+2025-12-07T10:38:25 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 541 of 725: trying C = 13.440 (Optuna trial 541)
+2025-12-07T10:40:46 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 541: ACC=0.8131, AUC=0.8890 ± 0.0078, BalAcc=0.8131, Null_recall=0.8169, WT_recall=0.8093, Null_precision=0.8109, best_ACC=0.8139
+2025-12-07T10:40:47 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 542 of 725: trying C = 1.099 (Optuna trial 542)
+2025-12-07T10:42:47 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 542: ACC=0.8120, AUC=0.8893 ± 0.0077, BalAcc=0.8120, Null_recall=0.8168, WT_recall=0.8072, Null_precision=0.8092, best_ACC=0.8139
+2025-12-07T10:42:47 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 543 of 725: trying C = 29.363 (Optuna trial 543)
+2025-12-07T10:44:47 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 543: ACC=0.8131, AUC=0.8891 ± 0.0078, BalAcc=0.8131, Null_recall=0.8173, WT_recall=0.8089, Null_precision=0.8105, best_ACC=0.8139
+2025-12-07T10:44:47 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 544 of 725: trying C = 86.463 (Optuna trial 544)
+2025-12-07T10:46:47 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 544: ACC=0.8131, AUC=0.8890 ± 0.0078, BalAcc=0.8131, Null_recall=0.8171, WT_recall=0.8090, Null_precision=0.8106, best_ACC=0.8139
+2025-12-07T10:46:47 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 545 of 725: trying C = 22.375 (Optuna trial 545)
+2025-12-07T10:48:40 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 545: ACC=0.8135, AUC=0.8890 ± 0.0077, BalAcc=0.8135, Null_recall=0.8180, WT_recall=0.8090, Null_precision=0.8108, best_ACC=0.8139
+2025-12-07T10:48:40 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 546 of 725: trying C = 33.143 (Optuna trial 546)
+2025-12-07T10:50:39 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 546: ACC=0.8128, AUC=0.8890 ± 0.0078, BalAcc=0.8128, Null_recall=0.8171, WT_recall=0.8085, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T10:50:39 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 547 of 725: trying C = 26.665 (Optuna trial 547)
+2025-12-07T10:52:31 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 547: ACC=0.8127, AUC=0.8890 ± 0.0078, BalAcc=0.8127, Null_recall=0.8170, WT_recall=0.8085, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T10:52:31 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 548 of 725: trying C = 100.803 (Optuna trial 548)
+2025-12-07T10:54:34 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 548: ACC=0.8129, AUC=0.8890 ± 0.0078, BalAcc=0.8129, Null_recall=0.8170, WT_recall=0.8087, Null_precision=0.8104, best_ACC=0.8139
+2025-12-07T10:54:34 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 549 of 725: trying C = 62.196 (Optuna trial 549)
+2025-12-07T10:56:36 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 549: ACC=0.8131, AUC=0.8890 ± 0.0078, BalAcc=0.8131, Null_recall=0.8174, WT_recall=0.8087, Null_precision=0.8105, best_ACC=0.8139
+2025-12-07T10:56:36 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 550 of 725: trying C = 90.334 (Optuna trial 550)
+2025-12-07T10:58:36 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 550: ACC=0.8130, AUC=0.8890 ± 0.0079, BalAcc=0.8130, Null_recall=0.8174, WT_recall=0.8086, Null_precision=0.8104, best_ACC=0.8139
+2025-12-07T10:58:36 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 551 of 725: trying C = 8.846 (Optuna trial 551)
+2025-12-07T11:00:37 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 551: ACC=0.8131, AUC=0.8891 ± 0.0077, BalAcc=0.8131, Null_recall=0.8174, WT_recall=0.8087, Null_precision=0.8105, best_ACC=0.8139
+2025-12-07T11:00:37 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 552 of 725: trying C = 19.742 (Optuna trial 552)
+2025-12-07T11:02:30 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 552: ACC=0.8127, AUC=0.8890 ± 0.0078, BalAcc=0.8127, Null_recall=0.8171, WT_recall=0.8084, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T11:02:30 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 553 of 725: trying C = 40.180 (Optuna trial 553)
+2025-12-07T11:04:37 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 553: ACC=0.8133, AUC=0.8890 ± 0.0078, BalAcc=0.8133, Null_recall=0.8176, WT_recall=0.8090, Null_precision=0.8107, best_ACC=0.8139
+2025-12-07T11:04:37 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 554 of 725: trying C = 15.373 (Optuna trial 554)
+2025-12-07T11:06:40 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 554: ACC=0.8131, AUC=0.8890 ± 0.0078, BalAcc=0.8131, Null_recall=0.8170, WT_recall=0.8091, Null_precision=0.8107, best_ACC=0.8139
+2025-12-07T11:06:40 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 555 of 725: trying C = 190.604 (Optuna trial 555)
+2025-12-07T11:08:49 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 555: ACC=0.8126, AUC=0.8890 ± 0.0078, BalAcc=0.8126, Null_recall=0.8165, WT_recall=0.8087, Null_precision=0.8103, best_ACC=0.8139
+2025-12-07T11:08:49 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 556 of 725: trying C = 4.482 (Optuna trial 556)
+2025-12-07T11:10:38 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 556: ACC=0.8131, AUC=0.8891 ± 0.0078, BalAcc=0.8131, Null_recall=0.8173, WT_recall=0.8089, Null_precision=0.8105, best_ACC=0.8139
+2025-12-07T11:10:38 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 557 of 725: trying C = 86.320 (Optuna trial 557)
+2025-12-07T11:12:42 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 557: ACC=0.8130, AUC=0.8889 ± 0.0079, BalAcc=0.8130, Null_recall=0.8169, WT_recall=0.8091, Null_precision=0.8107, best_ACC=0.8139
+2025-12-07T11:12:42 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 558 of 725: trying C = 137.499 (Optuna trial 558)
+2025-12-07T11:14:53 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 558: ACC=0.8132, AUC=0.8891 ± 0.0078, BalAcc=0.8132, Null_recall=0.8171, WT_recall=0.8092, Null_precision=0.8108, best_ACC=0.8139
+2025-12-07T11:14:53 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 559 of 725: trying C = 31.366 (Optuna trial 559)
+2025-12-07T11:16:54 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 559: ACC=0.8133, AUC=0.8891 ± 0.0078, BalAcc=0.8133, Null_recall=0.8175, WT_recall=0.8091, Null_precision=0.8108, best_ACC=0.8139
+2025-12-07T11:16:54 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 560 of 725: trying C = 25.081 (Optuna trial 560)
+2025-12-07T11:19:03 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 560: ACC=0.8133, AUC=0.8890 ± 0.0078, BalAcc=0.8133, Null_recall=0.8175, WT_recall=0.8091, Null_precision=0.8108, best_ACC=0.8139
+2025-12-07T11:19:03 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 561 of 725: trying C = 19.120 (Optuna trial 561)
+2025-12-07T11:21:10 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 561: ACC=0.8127, AUC=0.8890 ± 0.0078, BalAcc=0.8127, Null_recall=0.8173, WT_recall=0.8082, Null_precision=0.8101, best_ACC=0.8139
+2025-12-07T11:21:10 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 562 of 725: trying C = 29.275 (Optuna trial 562)
+2025-12-07T11:23:11 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 562: ACC=0.8132, AUC=0.8890 ± 0.0079, BalAcc=0.8132, Null_recall=0.8166, WT_recall=0.8097, Null_precision=0.8112, best_ACC=0.8139
+2025-12-07T11:23:11 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 563 of 725: trying C = 94.819 (Optuna trial 563)
+2025-12-07T11:25:21 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 563: ACC=0.8134, AUC=0.8890 ± 0.0078, BalAcc=0.8134, Null_recall=0.8180, WT_recall=0.8087, Null_precision=0.8106, best_ACC=0.8139
+2025-12-07T11:25:21 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 564 of 725: trying C = 36.753 (Optuna trial 564)
+2025-12-07T11:27:35 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 564: ACC=0.8132, AUC=0.8890 ± 0.0077, BalAcc=0.8132, Null_recall=0.8178, WT_recall=0.8087, Null_precision=0.8106, best_ACC=0.8139
+2025-12-07T11:27:35 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 565 of 725: trying C = 57.253 (Optuna trial 565)
+2025-12-07T11:29:47 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 565: ACC=0.8128, AUC=0.8890 ± 0.0078, BalAcc=0.8128, Null_recall=0.8176, WT_recall=0.8080, Null_precision=0.8099, best_ACC=0.8139
+2025-12-07T11:29:47 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 566 of 725: trying C = 22.460 (Optuna trial 566)
+2025-12-07T11:31:58 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 566: ACC=0.8134, AUC=0.8891 ± 0.0077, BalAcc=0.8134, Null_recall=0.8176, WT_recall=0.8092, Null_precision=0.8109, best_ACC=0.8139
+2025-12-07T11:31:58 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 567 of 725: trying C = 11.317 (Optuna trial 567)
+2025-12-07T11:33:58 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 567: ACC=0.8136, AUC=0.8890 ± 0.0078, BalAcc=0.8136, Null_recall=0.8181, WT_recall=0.8090, Null_precision=0.8108, best_ACC=0.8139
+2025-12-07T11:33:58 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 568 of 725: trying C = 14.346 (Optuna trial 568)
+2025-12-07T11:36:03 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 568: ACC=0.8129, AUC=0.8890 ± 0.0078, BalAcc=0.8129, Null_recall=0.8173, WT_recall=0.8086, Null_precision=0.8103, best_ACC=0.8139
+2025-12-07T11:36:03 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 569 of 725: trying C = 9.175 (Optuna trial 569)
+2025-12-07T11:38:07 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 569: ACC=0.8128, AUC=0.8890 ± 0.0077, BalAcc=0.8128, Null_recall=0.8171, WT_recall=0.8085, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T11:38:07 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 570 of 725: trying C = 5.379 (Optuna trial 570)
+2025-12-07T11:40:10 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 570: ACC=0.8129, AUC=0.8891 ± 0.0078, BalAcc=0.8129, Null_recall=0.8175, WT_recall=0.8084, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T11:40:10 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 571 of 725: trying C = 10.917 (Optuna trial 571)
+2025-12-07T11:42:27 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 571: ACC=0.8132, AUC=0.8890 ± 0.0077, BalAcc=0.8132, Null_recall=0.8178, WT_recall=0.8086, Null_precision=0.8104, best_ACC=0.8139
+2025-12-07T11:42:27 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 572 of 725: trying C = 12.683 (Optuna trial 572)
+2025-12-07T11:44:33 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 572: ACC=0.8128, AUC=0.8890 ± 0.0079, BalAcc=0.8128, Null_recall=0.8171, WT_recall=0.8085, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T11:44:33 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 573 of 725: trying C = 15.976 (Optuna trial 573)
+2025-12-07T11:46:46 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 573: ACC=0.8124, AUC=0.8889 ± 0.0078, BalAcc=0.8124, Null_recall=0.8163, WT_recall=0.8085, Null_precision=0.8101, best_ACC=0.8139
+2025-12-07T11:46:46 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 574 of 725: trying C = 10.904 (Optuna trial 574)
+2025-12-07T11:48:51 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 574: ACC=0.8132, AUC=0.8891 ± 0.0077, BalAcc=0.8132, Null_recall=0.8180, WT_recall=0.8084, Null_precision=0.8103, best_ACC=0.8139
+2025-12-07T11:48:51 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 575 of 725: trying C = 6.319 (Optuna trial 575)
+2025-12-07T11:51:02 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 575: ACC=0.8132, AUC=0.8891 ± 0.0078, BalAcc=0.8132, Null_recall=0.8175, WT_recall=0.8089, Null_precision=0.8106, best_ACC=0.8139
+2025-12-07T11:51:02 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 576 of 725: trying C = 17.460 (Optuna trial 576)
+2025-12-07T11:53:14 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 576: ACC=0.8131, AUC=0.8891 ± 0.0077, BalAcc=0.8131, Null_recall=0.8173, WT_recall=0.8089, Null_precision=0.8105, best_ACC=0.8139
+2025-12-07T11:53:14 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 577 of 725: trying C = 20.992 (Optuna trial 577)
+2025-12-07T11:55:27 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 577: ACC=0.8133, AUC=0.8890 ± 0.0078, BalAcc=0.8133, Null_recall=0.8175, WT_recall=0.8091, Null_precision=0.8108, best_ACC=0.8139
+2025-12-07T11:55:27 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 578 of 725: trying C = 46.774 (Optuna trial 578)
+2025-12-07T11:57:42 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 578: ACC=0.8130, AUC=0.8890 ± 0.0078, BalAcc=0.8130, Null_recall=0.8173, WT_recall=0.8087, Null_precision=0.8105, best_ACC=0.8139
+2025-12-07T11:57:42 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 579 of 725: trying C = 1.690 (Optuna trial 579)
+2025-12-07T11:59:52 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 579: ACC=0.8123, AUC=0.8892 ± 0.0077, BalAcc=0.8123, Null_recall=0.8171, WT_recall=0.8075, Null_precision=0.8094, best_ACC=0.8139
+2025-12-07T11:59:52 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 580 of 725: trying C = 26.710 (Optuna trial 580)
+2025-12-07T12:02:02 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 580: ACC=0.8131, AUC=0.8891 ± 0.0078, BalAcc=0.8131, Null_recall=0.8171, WT_recall=0.8090, Null_precision=0.8106, best_ACC=0.8139
+2025-12-07T12:02:02 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 581 of 725: trying C = 25.057 (Optuna trial 581)
+2025-12-07T12:04:12 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 581: ACC=0.8133, AUC=0.8890 ± 0.0077, BalAcc=0.8133, Null_recall=0.8176, WT_recall=0.8090, Null_precision=0.8107, best_ACC=0.8139
+2025-12-07T12:04:12 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 582 of 725: trying C = 33.729 (Optuna trial 582)
+2025-12-07T12:06:16 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 582: ACC=0.8135, AUC=0.8891 ± 0.0078, BalAcc=0.8135, Null_recall=0.8182, WT_recall=0.8087, Null_precision=0.8106, best_ACC=0.8139
+2025-12-07T12:06:16 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 583 of 725: trying C = 15.856 (Optuna trial 583)
+2025-12-07T12:08:16 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 583: ACC=0.8133, AUC=0.8890 ± 0.0077, BalAcc=0.8133, Null_recall=0.8174, WT_recall=0.8092, Null_precision=0.8109, best_ACC=0.8139
+2025-12-07T12:08:16 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 584 of 725: trying C = 7.699 (Optuna trial 584)
+2025-12-07T12:10:23 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 584: ACC=0.8129, AUC=0.8890 ± 0.0077, BalAcc=0.8129, Null_recall=0.8174, WT_recall=0.8084, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T12:10:23 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 585 of 725: trying C = 22.266 (Optuna trial 585)
+2025-12-07T12:12:34 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 585: ACC=0.8131, AUC=0.8891 ± 0.0077, BalAcc=0.8131, Null_recall=0.8174, WT_recall=0.8089, Null_precision=0.8106, best_ACC=0.8139
+2025-12-07T12:12:34 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 586 of 725: trying C = 30.179 (Optuna trial 586)
+2025-12-07T12:14:42 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 586: ACC=0.8127, AUC=0.8891 ± 0.0078, BalAcc=0.8127, Null_recall=0.8165, WT_recall=0.8089, Null_precision=0.8104, best_ACC=0.8139
+2025-12-07T12:14:42 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 587 of 725: trying C = 26.749 (Optuna trial 587)
+2025-12-07T12:16:53 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 587: ACC=0.8131, AUC=0.8890 ± 0.0078, BalAcc=0.8131, Null_recall=0.8169, WT_recall=0.8093, Null_precision=0.8109, best_ACC=0.8139
+2025-12-07T12:16:53 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 588 of 725: trying C = 0.164 (Optuna trial 588)
+2025-12-07T12:18:44 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 588: ACC=0.8120, AUC=0.8894 ± 0.0074, BalAcc=0.8120, Null_recall=0.8165, WT_recall=0.8075, Null_precision=0.8093, best_ACC=0.8139
+2025-12-07T12:18:44 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 589 of 725: trying C = 21.739 (Optuna trial 589)
+2025-12-07T12:21:13 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 589: ACC=0.8129, AUC=0.8891 ± 0.0078, BalAcc=0.8129, Null_recall=0.8169, WT_recall=0.8089, Null_precision=0.8105, best_ACC=0.8139
+2025-12-07T12:21:13 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 590 of 725: trying C = 14.119 (Optuna trial 590)
+2025-12-07T12:23:23 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 590: ACC=0.8129, AUC=0.8890 ± 0.0077, BalAcc=0.8129, Null_recall=0.8170, WT_recall=0.8089, Null_precision=0.8105, best_ACC=0.8139
+2025-12-07T12:23:23 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 591 of 725: trying C = 19.028 (Optuna trial 591)
+2025-12-07T12:25:45 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 591: ACC=0.8128, AUC=0.8890 ± 0.0078, BalAcc=0.8128, Null_recall=0.8173, WT_recall=0.8084, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T12:25:45 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 592 of 725: trying C = 10.567 (Optuna trial 592)
+2025-12-07T12:28:01 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 592: ACC=0.8129, AUC=0.8890 ± 0.0078, BalAcc=0.8129, Null_recall=0.8171, WT_recall=0.8086, Null_precision=0.8103, best_ACC=0.8139
+2025-12-07T12:28:01 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 593 of 725: trying C = 35.121 (Optuna trial 593)
+2025-12-07T12:30:17 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 593: ACC=0.8129, AUC=0.8890 ± 0.0078, BalAcc=0.8129, Null_recall=0.8176, WT_recall=0.8081, Null_precision=0.8100, best_ACC=0.8139
+2025-12-07T12:30:17 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 594 of 725: trying C = 41.249 (Optuna trial 594)
+2025-12-07T12:32:33 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 594: ACC=0.8131, AUC=0.8890 ± 0.0079, BalAcc=0.8131, Null_recall=0.8170, WT_recall=0.8091, Null_precision=0.8107, best_ACC=0.8139
+2025-12-07T12:32:33 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 595 of 725: trying C = 29.876 (Optuna trial 595)
+2025-12-07T12:34:53 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 595: ACC=0.8128, AUC=0.8890 ± 0.0078, BalAcc=0.8128, Null_recall=0.8173, WT_recall=0.8084, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T12:34:53 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 596 of 725: trying C = 25.493 (Optuna trial 596)
+2025-12-07T12:37:18 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 596: ACC=0.8134, AUC=0.8890 ± 0.0078, BalAcc=0.8134, Null_recall=0.8173, WT_recall=0.8096, Null_precision=0.8111, best_ACC=0.8139
+2025-12-07T12:37:18 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 597 of 725: trying C = 17.734 (Optuna trial 597)
+2025-12-07T12:39:45 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 597: ACC=0.8129, AUC=0.8891 ± 0.0078, BalAcc=0.8129, Null_recall=0.8173, WT_recall=0.8086, Null_precision=0.8104, best_ACC=0.8139
+2025-12-07T12:39:45 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 598 of 725: trying C = 32.116 (Optuna trial 598)
+2025-12-07T12:42:05 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 598: ACC=0.8125, AUC=0.8891 ± 0.0078, BalAcc=0.8125, Null_recall=0.8168, WT_recall=0.8082, Null_precision=0.8100, best_ACC=0.8139
+2025-12-07T12:42:05 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 599 of 725: trying C = 51.935 (Optuna trial 599)
+2025-12-07T12:44:28 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 599: ACC=0.8133, AUC=0.8890 ± 0.0078, BalAcc=0.8133, Null_recall=0.8173, WT_recall=0.8093, Null_precision=0.8109, best_ACC=0.8139
+2025-12-07T12:44:28 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 600 of 725: trying C = 7.098 (Optuna trial 600)
+2025-12-07T12:46:51 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 600: ACC=0.8136, AUC=0.8891 ± 0.0079, BalAcc=0.8136, Null_recall=0.8176, WT_recall=0.8095, Null_precision=0.8111, best_ACC=0.8139
+2025-12-07T12:46:51 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 601 of 725: trying C = 125.398 (Optuna trial 601)
+2025-12-07T12:49:21 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 601: ACC=0.8134, AUC=0.8890 ± 0.0078, BalAcc=0.8134, Null_recall=0.8176, WT_recall=0.8092, Null_precision=0.8109, best_ACC=0.8139
+2025-12-07T12:49:21 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 602 of 725: trying C = 64.765 (Optuna trial 602)
+2025-12-07T12:51:44 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 602: ACC=0.8130, AUC=0.8890 ± 0.0078, BalAcc=0.8130, Null_recall=0.8173, WT_recall=0.8087, Null_precision=0.8104, best_ACC=0.8139
+2025-12-07T12:51:44 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 603 of 725: trying C = 25.909 (Optuna trial 603)
+2025-12-07T12:54:15 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 603: ACC=0.8132, AUC=0.8890 ± 0.0078, BalAcc=0.8132, Null_recall=0.8176, WT_recall=0.8087, Null_precision=0.8105, best_ACC=0.8139
+2025-12-07T12:54:15 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 604 of 725: trying C = 37.957 (Optuna trial 604)
+2025-12-07T12:56:36 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 604: ACC=0.8134, AUC=0.8890 ± 0.0078, BalAcc=0.8134, Null_recall=0.8178, WT_recall=0.8091, Null_precision=0.8109, best_ACC=0.8139
+2025-12-07T12:56:36 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 605 of 725: trying C = 20.513 (Optuna trial 605)
+2025-12-07T12:58:59 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 605: ACC=0.8133, AUC=0.8890 ± 0.0078, BalAcc=0.8133, Null_recall=0.8175, WT_recall=0.8091, Null_precision=0.8108, best_ACC=0.8139
+2025-12-07T12:58:59 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 606 of 725: trying C = 12.440 (Optuna trial 606)
+2025-12-07T13:01:25 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 606: ACC=0.8129, AUC=0.8890 ± 0.0077, BalAcc=0.8129, Null_recall=0.8174, WT_recall=0.8084, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T13:01:25 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 607 of 725: trying C = 69.544 (Optuna trial 607)
+2025-12-07T13:03:53 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 607: ACC=0.8128, AUC=0.8891 ± 0.0078, BalAcc=0.8128, Null_recall=0.8170, WT_recall=0.8086, Null_precision=0.8103, best_ACC=0.8139
+2025-12-07T13:03:53 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 608 of 725: trying C = 4.753 (Optuna trial 608)
+2025-12-07T13:06:05 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 608: ACC=0.8126, AUC=0.8891 ± 0.0078, BalAcc=0.8126, Null_recall=0.8166, WT_recall=0.8086, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T13:06:05 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 609 of 725: trying C = 84.680 (Optuna trial 609)
+2025-12-07T13:08:38 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 609: ACC=0.8127, AUC=0.8890 ± 0.0078, BalAcc=0.8127, Null_recall=0.8169, WT_recall=0.8085, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T13:08:38 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 610 of 725: trying C = 28.186 (Optuna trial 610)
+2025-12-07T13:11:07 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 610: ACC=0.8127, AUC=0.8891 ± 0.0077, BalAcc=0.8127, Null_recall=0.8166, WT_recall=0.8089, Null_precision=0.8104, best_ACC=0.8139
+2025-12-07T13:11:07 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 611 of 725: trying C = 89.320 (Optuna trial 611)
+2025-12-07T13:13:32 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 611: ACC=0.8126, AUC=0.8890 ± 0.0077, BalAcc=0.8126, Null_recall=0.8166, WT_recall=0.8085, Null_precision=0.8101, best_ACC=0.8139
+2025-12-07T13:13:32 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 612 of 725: trying C = 22.292 (Optuna trial 612)
+2025-12-07T13:15:55 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 612: ACC=0.8127, AUC=0.8890 ± 0.0078, BalAcc=0.8127, Null_recall=0.8169, WT_recall=0.8085, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T13:15:55 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 613 of 725: trying C = 16.338 (Optuna trial 613)
+2025-12-07T13:18:12 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 613: ACC=0.8136, AUC=0.8890 ± 0.0078, BalAcc=0.8136, Null_recall=0.8178, WT_recall=0.8093, Null_precision=0.8111, best_ACC=0.8139
+2025-12-07T13:18:12 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 614 of 725: trying C = 58.680 (Optuna trial 614)
+2025-12-07T13:20:40 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 614: ACC=0.8129, AUC=0.8891 ± 0.0078, BalAcc=0.8129, Null_recall=0.8171, WT_recall=0.8086, Null_precision=0.8103, best_ACC=0.8139
+2025-12-07T13:20:40 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 615 of 725: trying C = 97.526 (Optuna trial 615)
+2025-12-07T13:23:17 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 615: ACC=0.8123, AUC=0.8890 ± 0.0078, BalAcc=0.8123, Null_recall=0.8165, WT_recall=0.8080, Null_precision=0.8097, best_ACC=0.8139
+2025-12-07T13:23:17 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 616 of 725: trying C = 31.703 (Optuna trial 616)
+2025-12-07T13:25:49 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 616: ACC=0.8134, AUC=0.8890 ± 0.0079, BalAcc=0.8134, Null_recall=0.8173, WT_recall=0.8096, Null_precision=0.8111, best_ACC=0.8139
+2025-12-07T13:25:49 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 617 of 725: trying C = 25.131 (Optuna trial 617)
+2025-12-07T13:28:23 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 617: ACC=0.8126, AUC=0.8889 ± 0.0079, BalAcc=0.8126, Null_recall=0.8166, WT_recall=0.8086, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T13:28:23 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 618 of 725: trying C = 10.436 (Optuna trial 618)
+2025-12-07T13:30:59 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 618: ACC=0.8132, AUC=0.8890 ± 0.0078, BalAcc=0.8132, Null_recall=0.8178, WT_recall=0.8087, Null_precision=0.8105, best_ACC=0.8139
+2025-12-07T13:30:59 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 619 of 725: trying C = 81.797 (Optuna trial 619)
+2025-12-07T13:33:37 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 619: ACC=0.8128, AUC=0.8891 ± 0.0078, BalAcc=0.8128, Null_recall=0.8170, WT_recall=0.8086, Null_precision=0.8103, best_ACC=0.8139
+2025-12-07T13:33:37 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 620 of 725: trying C = 108.402 (Optuna trial 620)
+2025-12-07T13:36:15 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 620: ACC=0.8137, AUC=0.8890 ± 0.0078, BalAcc=0.8137, Null_recall=0.8178, WT_recall=0.8096, Null_precision=0.8112, best_ACC=0.8139
+2025-12-07T13:36:15 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 621 of 725: trying C = 94.562 (Optuna trial 621)
+2025-12-07T13:38:46 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 621: ACC=0.8136, AUC=0.8890 ± 0.0077, BalAcc=0.8136, Null_recall=0.8181, WT_recall=0.8090, Null_precision=0.8108, best_ACC=0.8139
+2025-12-07T13:38:46 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 622 of 725: trying C = 110.976 (Optuna trial 622)
+2025-12-07T13:41:18 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 622: ACC=0.8128, AUC=0.8890 ± 0.0078, BalAcc=0.8128, Null_recall=0.8170, WT_recall=0.8086, Null_precision=0.8103, best_ACC=0.8139
+2025-12-07T13:41:18 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 623 of 725: trying C = 108.063 (Optuna trial 623)
+2025-12-07T13:43:47 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 623: ACC=0.8137, AUC=0.8890 ± 0.0078, BalAcc=0.8137, Null_recall=0.8174, WT_recall=0.8100, Null_precision=0.8115, best_ACC=0.8139
+2025-12-07T13:43:47 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 624 of 725: trying C = 99.659 (Optuna trial 624)
+2025-12-07T13:46:15 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 624: ACC=0.8126, AUC=0.8891 ± 0.0078, BalAcc=0.8126, Null_recall=0.8161, WT_recall=0.8091, Null_precision=0.8105, best_ACC=0.8139
+2025-12-07T13:46:15 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 625 of 725: trying C = 107.004 (Optuna trial 625)
+2025-12-07T13:48:43 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 625: ACC=0.8127, AUC=0.8890 ± 0.0078, BalAcc=0.8127, Null_recall=0.8169, WT_recall=0.8086, Null_precision=0.8103, best_ACC=0.8139
+2025-12-07T13:48:43 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 626 of 725: trying C = 90.425 (Optuna trial 626)
+2025-12-07T13:51:15 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 626: ACC=0.8132, AUC=0.8890 ± 0.0078, BalAcc=0.8132, Null_recall=0.8171, WT_recall=0.8092, Null_precision=0.8108, best_ACC=0.8139
+2025-12-07T13:51:15 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 627 of 725: trying C = 112.269 (Optuna trial 627)
+2025-12-07T13:53:43 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 627: ACC=0.8136, AUC=0.8890 ± 0.0077, BalAcc=0.8136, Null_recall=0.8180, WT_recall=0.8091, Null_precision=0.8109, best_ACC=0.8139
+2025-12-07T13:53:43 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 628 of 725: trying C = 106.072 (Optuna trial 628)
+2025-12-07T13:56:11 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 628: ACC=0.8128, AUC=0.8890 ± 0.0078, BalAcc=0.8128, Null_recall=0.8174, WT_recall=0.8082, Null_precision=0.8101, best_ACC=0.8139
+2025-12-07T13:56:11 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 629 of 725: trying C = 105.530 (Optuna trial 629)
+2025-12-07T13:58:37 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 629: ACC=0.8124, AUC=0.8890 ± 0.0078, BalAcc=0.8124, Null_recall=0.8166, WT_recall=0.8082, Null_precision=0.8099, best_ACC=0.8139
+2025-12-07T13:58:37 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 630 of 725: trying C = 103.735 (Optuna trial 630)
+2025-12-07T14:01:07 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 630: ACC=0.8126, AUC=0.8890 ± 0.0078, BalAcc=0.8126, Null_recall=0.8165, WT_recall=0.8086, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T14:01:07 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 631 of 725: trying C = 111.697 (Optuna trial 631)
+2025-12-07T14:03:37 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 631: ACC=0.8132, AUC=0.8889 ± 0.0078, BalAcc=0.8132, Null_recall=0.8176, WT_recall=0.8087, Null_precision=0.8105, best_ACC=0.8139
+2025-12-07T14:03:37 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 632 of 725: trying C = 110.945 (Optuna trial 632)
+2025-12-07T14:06:09 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 632: ACC=0.8131, AUC=0.8890 ± 0.0078, BalAcc=0.8131, Null_recall=0.8171, WT_recall=0.8091, Null_precision=0.8107, best_ACC=0.8139
+2025-12-07T14:06:09 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 633 of 725: trying C = 77.890 (Optuna trial 633)
+2025-12-07T14:08:33 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 633: ACC=0.8130, AUC=0.8890 ± 0.0078, BalAcc=0.8130, Null_recall=0.8173, WT_recall=0.8087, Null_precision=0.8104, best_ACC=0.8139
+2025-12-07T14:08:33 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 634 of 725: trying C = 99.436 (Optuna trial 634)
+2025-12-07T14:11:02 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 634: ACC=0.8131, AUC=0.8890 ± 0.0078, BalAcc=0.8131, Null_recall=0.8176, WT_recall=0.8085, Null_precision=0.8103, best_ACC=0.8139
+2025-12-07T14:11:02 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 635 of 725: trying C = 109.281 (Optuna trial 635)
+2025-12-07T14:13:25 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 635: ACC=0.8124, AUC=0.8890 ± 0.0078, BalAcc=0.8124, Null_recall=0.8163, WT_recall=0.8086, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T14:13:25 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 636 of 725: trying C = 109.164 (Optuna trial 636)
+2025-12-07T14:15:52 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 636: ACC=0.8126, AUC=0.8890 ± 0.0078, BalAcc=0.8126, Null_recall=0.8168, WT_recall=0.8085, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T14:15:52 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 637 of 725: trying C = 105.680 (Optuna trial 637)
+2025-12-07T14:18:23 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 637: ACC=0.8126, AUC=0.8890 ± 0.0079, BalAcc=0.8126, Null_recall=0.8164, WT_recall=0.8089, Null_precision=0.8104, best_ACC=0.8139
+2025-12-07T14:18:23 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 638 of 725: trying C = 102.850 (Optuna trial 638)
+2025-12-07T14:20:56 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 638: ACC=0.8126, AUC=0.8890 ± 0.0078, BalAcc=0.8126, Null_recall=0.8168, WT_recall=0.8084, Null_precision=0.8101, best_ACC=0.8139
+2025-12-07T14:20:56 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 639 of 725: trying C = 115.777 (Optuna trial 639)
+2025-12-07T14:23:25 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 639: ACC=0.8134, AUC=0.8890 ± 0.0078, BalAcc=0.8134, Null_recall=0.8175, WT_recall=0.8092, Null_precision=0.8109, best_ACC=0.8139
+2025-12-07T14:23:25 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 640 of 725: trying C = 102.584 (Optuna trial 640)
+2025-12-07T14:25:59 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 640: ACC=0.8130, AUC=0.8890 ± 0.0079, BalAcc=0.8130, Null_recall=0.8176, WT_recall=0.8084, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T14:25:59 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 641 of 725: trying C = 72.788 (Optuna trial 641)
+2025-12-07T14:28:23 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 641: ACC=0.8131, AUC=0.8890 ± 0.0079, BalAcc=0.8131, Null_recall=0.8175, WT_recall=0.8087, Null_precision=0.8105, best_ACC=0.8139
+2025-12-07T14:28:23 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 642 of 725: trying C = 117.817 (Optuna trial 642)
+2025-12-07T14:30:59 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 642: ACC=0.8136, AUC=0.8890 ± 0.0078, BalAcc=0.8136, Null_recall=0.8178, WT_recall=0.8095, Null_precision=0.8111, best_ACC=0.8139
+2025-12-07T14:30:59 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 643 of 725: trying C = 123.035 (Optuna trial 643)
+2025-12-07T14:33:26 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 643: ACC=0.8132, AUC=0.8890 ± 0.0077, BalAcc=0.8132, Null_recall=0.8173, WT_recall=0.8091, Null_precision=0.8108, best_ACC=0.8139
+2025-12-07T14:33:26 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 644 of 725: trying C = 116.008 (Optuna trial 644)
+2025-12-07T14:35:50 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 644: ACC=0.8135, AUC=0.8890 ± 0.0078, BalAcc=0.8135, Null_recall=0.8178, WT_recall=0.8092, Null_precision=0.8109, best_ACC=0.8139
+2025-12-07T14:35:50 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 645 of 725: trying C = 124.782 (Optuna trial 645)
+2025-12-07T14:38:20 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 645: ACC=0.8134, AUC=0.8890 ± 0.0077, BalAcc=0.8134, Null_recall=0.8171, WT_recall=0.8097, Null_precision=0.8112, best_ACC=0.8139
+2025-12-07T14:38:20 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 646 of 725: trying C = 125.260 (Optuna trial 646)
+2025-12-07T14:40:57 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 646: ACC=0.8133, AUC=0.8890 ± 0.0078, BalAcc=0.8133, Null_recall=0.8174, WT_recall=0.8092, Null_precision=0.8109, best_ACC=0.8139
+2025-12-07T14:40:57 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 647 of 725: trying C = 132.058 (Optuna trial 647)
+2025-12-07T14:43:30 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 647: ACC=0.8125, AUC=0.8890 ± 0.0078, BalAcc=0.8125, Null_recall=0.8164, WT_recall=0.8086, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T14:43:30 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 648 of 725: trying C = 129.735 (Optuna trial 648)
+2025-12-07T14:45:07 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 648: ACC=0.8132, AUC=0.8890 ± 0.0079, BalAcc=0.8132, Null_recall=0.8178, WT_recall=0.8087, Null_precision=0.8105, best_ACC=0.8139
+2025-12-07T14:45:07 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 649 of 725: trying C = 114.732 (Optuna trial 649)
+2025-12-07T14:46:09 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 649: ACC=0.8131, AUC=0.8890 ± 0.0078, BalAcc=0.8131, Null_recall=0.8173, WT_recall=0.8090, Null_precision=0.8106, best_ACC=0.8139
+2025-12-07T14:46:10 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 650 of 725: trying C = 109.390 (Optuna trial 650)
+2025-12-07T14:47:15 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 650: ACC=0.8131, AUC=0.8889 ± 0.0078, BalAcc=0.8131, Null_recall=0.8168, WT_recall=0.8093, Null_precision=0.8108, best_ACC=0.8139
+2025-12-07T14:47:15 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 651 of 725: trying C = 117.372 (Optuna trial 651)
+2025-12-07T14:48:19 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 651: ACC=0.8130, AUC=0.8890 ± 0.0078, BalAcc=0.8130, Null_recall=0.8181, WT_recall=0.8079, Null_precision=0.8099, best_ACC=0.8139
+2025-12-07T14:48:19 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 652 of 725: trying C = 117.916 (Optuna trial 652)
+2025-12-07T14:49:23 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 652: ACC=0.8131, AUC=0.8890 ± 0.0078, BalAcc=0.8131, Null_recall=0.8176, WT_recall=0.8086, Null_precision=0.8104, best_ACC=0.8139
+2025-12-07T14:49:23 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 653 of 725: trying C = 117.561 (Optuna trial 653)
+2025-12-07T14:50:28 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 653: ACC=0.8131, AUC=0.8890 ± 0.0078, BalAcc=0.8131, Null_recall=0.8175, WT_recall=0.8087, Null_precision=0.8105, best_ACC=0.8139
+2025-12-07T14:50:28 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 654 of 725: trying C = 85.700 (Optuna trial 654)
+2025-12-07T14:51:33 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 654: ACC=0.8130, AUC=0.8890 ± 0.0079, BalAcc=0.8130, Null_recall=0.8170, WT_recall=0.8090, Null_precision=0.8106, best_ACC=0.8139
+2025-12-07T14:51:33 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 655 of 725: trying C = 106.105 (Optuna trial 655)
+2025-12-07T14:52:39 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 655: ACC=0.8132, AUC=0.8891 ± 0.0078, BalAcc=0.8132, Null_recall=0.8176, WT_recall=0.8089, Null_precision=0.8106, best_ACC=0.8139
+2025-12-07T14:52:39 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 656 of 725: trying C = 121.266 (Optuna trial 656)
+2025-12-07T14:53:47 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 656: ACC=0.8132, AUC=0.8890 ± 0.0078, BalAcc=0.8132, Null_recall=0.8175, WT_recall=0.8089, Null_precision=0.8106, best_ACC=0.8139
+2025-12-07T14:53:47 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 657 of 725: trying C = 98.338 (Optuna trial 657)
+2025-12-07T14:54:56 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 657: ACC=0.8127, AUC=0.8890 ± 0.0078, BalAcc=0.8127, Null_recall=0.8170, WT_recall=0.8085, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T14:54:56 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 658 of 725: trying C = 118.913 (Optuna trial 658)
+2025-12-07T14:56:04 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 658: ACC=0.8126, AUC=0.8890 ± 0.0079, BalAcc=0.8126, Null_recall=0.8165, WT_recall=0.8086, Null_precision=0.8102, best_ACC=0.8139
+2025-12-07T14:56:04 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 659 of 725: trying C = 111.395 (Optuna trial 659)
+2025-12-07T14:57:11 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 659: ACC=0.8128, AUC=0.8890 ± 0.0078, BalAcc=0.8128, Null_recall=0.8168, WT_recall=0.8089, Null_precision=0.8105, best_ACC=0.8139
+2025-12-07T14:57:11 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 660 of 725: trying C = 119.426 (Optuna trial 660)
+2025-12-07T14:58:18 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 660: ACC=0.8134, AUC=0.8890 ± 0.0078, BalAcc=0.8134, Null_recall=0.8176, WT_recall=0.8092, Null_precision=0.8109, best_ACC=0.8139
+2025-12-07T14:58:18 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 661 of 725: trying C = 89.360 (Optuna trial 661)
+2025-12-07T14:59:30 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 661: ACC=0.8126, AUC=0.8890 ± 0.0079, BalAcc=0.8126, Null_recall=0.8166, WT_recall=0.8085, Null_precision=0.8101, best_ACC=0.8139
+2025-12-07T14:59:31 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 662 of 725: trying C = 112.744 (Optuna trial 662)
+2025-12-07T15:00:36 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 662: ACC=0.8140, AUC=0.8890 ± 0.0078, BalAcc=0.8140, Null_recall=0.8187, WT_recall=0.8092, Null_precision=0.8111, best_ACC=0.8140
+2025-12-07T15:00:36 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 663 of 725: trying C = 110.069 (Optuna trial 663)
+2025-12-07T15:01:40 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 663: ACC=0.8126, AUC=0.8890 ± 0.0078, BalAcc=0.8126, Null_recall=0.8161, WT_recall=0.8090, Null_precision=0.8105, best_ACC=0.8140
+2025-12-07T15:01:40 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 664 of 725: trying C = 112.699 (Optuna trial 664)
+2025-12-07T15:02:43 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 664: ACC=0.8136, AUC=0.8890 ± 0.0078, BalAcc=0.8136, Null_recall=0.8180, WT_recall=0.8091, Null_precision=0.8109, best_ACC=0.8140
+2025-12-07T15:02:43 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 665 of 725: trying C = 108.743 (Optuna trial 665)
+2025-12-07T15:03:48 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 665: ACC=0.8129, AUC=0.8891 ± 0.0078, BalAcc=0.8129, Null_recall=0.8171, WT_recall=0.8087, Null_precision=0.8104, best_ACC=0.8140
+2025-12-07T15:03:48 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 666 of 725: trying C = 114.120 (Optuna trial 666)
+2025-12-07T15:04:51 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 666: ACC=0.8130, AUC=0.8890 ± 0.0078, BalAcc=0.8130, Null_recall=0.8171, WT_recall=0.8089, Null_precision=0.8105, best_ACC=0.8140
+2025-12-07T15:04:51 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 667 of 725: trying C = 121.924 (Optuna trial 667)
+2025-12-07T15:05:54 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 667: ACC=0.8129, AUC=0.8890 ± 0.0078, BalAcc=0.8129, Null_recall=0.8168, WT_recall=0.8091, Null_precision=0.8106, best_ACC=0.8140
+2025-12-07T15:05:54 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 668 of 725: trying C = 118.441 (Optuna trial 668)
+2025-12-07T15:07:01 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 668: ACC=0.8131, AUC=0.8890 ± 0.0078, BalAcc=0.8131, Null_recall=0.8170, WT_recall=0.8092, Null_precision=0.8108, best_ACC=0.8140
+2025-12-07T15:07:01 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 669 of 725: trying C = 114.082 (Optuna trial 669)
+2025-12-07T15:08:16 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 669: ACC=0.8128, AUC=0.8890 ± 0.0077, BalAcc=0.8128, Null_recall=0.8171, WT_recall=0.8085, Null_precision=0.8102, best_ACC=0.8140
+2025-12-07T15:08:16 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 670 of 725: trying C = 114.380 (Optuna trial 670)
+2025-12-07T15:09:32 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 670: ACC=0.8132, AUC=0.8890 ± 0.0078, BalAcc=0.8132, Null_recall=0.8181, WT_recall=0.8084, Null_precision=0.8103, best_ACC=0.8140
+2025-12-07T15:09:32 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 671 of 725: trying C = 106.686 (Optuna trial 671)
+2025-12-07T15:10:46 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 671: ACC=0.8128, AUC=0.8890 ± 0.0078, BalAcc=0.8128, Null_recall=0.8171, WT_recall=0.8085, Null_precision=0.8102, best_ACC=0.8140
+2025-12-07T15:10:46 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 672 of 725: trying C = 105.953 (Optuna trial 672)
+2025-12-07T15:11:53 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 672: ACC=0.8129, AUC=0.8890 ± 0.0078, BalAcc=0.8129, Null_recall=0.8173, WT_recall=0.8086, Null_precision=0.8103, best_ACC=0.8140
+2025-12-07T15:11:53 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 673 of 725: trying C = 113.954 (Optuna trial 673)
+2025-12-07T15:12:59 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 673: ACC=0.8127, AUC=0.8890 ± 0.0078, BalAcc=0.8127, Null_recall=0.8169, WT_recall=0.8085, Null_precision=0.8102, best_ACC=0.8140
+2025-12-07T15:12:59 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 674 of 725: trying C = 121.589 (Optuna trial 674)
+2025-12-07T15:14:21 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 674: ACC=0.8132, AUC=0.8890 ± 0.0078, BalAcc=0.8132, Null_recall=0.8169, WT_recall=0.8096, Null_precision=0.8111, best_ACC=0.8140
+2025-12-07T15:14:21 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 675 of 725: trying C = 76.807 (Optuna trial 675)
+2025-12-07T15:15:37 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 675: ACC=0.8132, AUC=0.8890 ± 0.0078, BalAcc=0.8132, Null_recall=0.8174, WT_recall=0.8090, Null_precision=0.8107, best_ACC=0.8140
+2025-12-07T15:15:37 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 676 of 725: trying C = 45.377 (Optuna trial 676)
+2025-12-07T15:16:43 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 676: ACC=0.8132, AUC=0.8890 ± 0.0078, BalAcc=0.8132, Null_recall=0.8171, WT_recall=0.8092, Null_precision=0.8108, best_ACC=0.8140
+2025-12-07T15:16:43 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 677 of 725: trying C = 63.515 (Optuna trial 677)
+2025-12-07T15:17:52 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 677: ACC=0.8133, AUC=0.8890 ± 0.0079, BalAcc=0.8133, Null_recall=0.8175, WT_recall=0.8091, Null_precision=0.8108, best_ACC=0.8140
+2025-12-07T15:17:52 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 678 of 725: trying C = 100.029 (Optuna trial 678)
+2025-12-07T15:19:10 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 678: ACC=0.8123, AUC=0.8890 ± 0.0078, BalAcc=0.8123, Null_recall=0.8164, WT_recall=0.8082, Null_precision=0.8099, best_ACC=0.8140
+2025-12-07T15:19:10 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 679 of 725: trying C = 81.976 (Optuna trial 679)
+2025-12-07T15:20:23 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 679: ACC=0.8131, AUC=0.8890 ± 0.0079, BalAcc=0.8131, Null_recall=0.8175, WT_recall=0.8087, Null_precision=0.8105, best_ACC=0.8140
+2025-12-07T15:20:23 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 680 of 725: trying C = 103.092 (Optuna trial 680)
+2025-12-07T15:21:42 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 680: ACC=0.8132, AUC=0.8890 ± 0.0078, BalAcc=0.8132, Null_recall=0.8178, WT_recall=0.8086, Null_precision=0.8105, best_ACC=0.8140
+2025-12-07T15:21:42 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 681 of 725: trying C = 92.918 (Optuna trial 681)
+2025-12-07T15:22:56 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 681: ACC=0.8129, AUC=0.8890 ± 0.0078, BalAcc=0.8129, Null_recall=0.8168, WT_recall=0.8091, Null_precision=0.8107, best_ACC=0.8140
+2025-12-07T15:22:56 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 682 of 725: trying C = 109.894 (Optuna trial 682)
+2025-12-07T15:24:03 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 682: ACC=0.8126, AUC=0.8890 ± 0.0078, BalAcc=0.8126, Null_recall=0.8164, WT_recall=0.8089, Null_precision=0.8104, best_ACC=0.8140
+2025-12-07T15:24:03 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 683 of 725: trying C = 71.047 (Optuna trial 683)
+2025-12-07T15:25:14 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 683: ACC=0.8126, AUC=0.8890 ± 0.0078, BalAcc=0.8126, Null_recall=0.8166, WT_recall=0.8086, Null_precision=0.8102, best_ACC=0.8140
+2025-12-07T15:25:15 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 684 of 725: trying C = 183.161 (Optuna trial 684)
+2025-12-07T15:26:24 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 684: ACC=0.8131, AUC=0.8890 ± 0.0078, BalAcc=0.8131, Null_recall=0.8170, WT_recall=0.8091, Null_precision=0.8107, best_ACC=0.8140
+2025-12-07T15:26:24 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 685 of 725: trying C = 83.638 (Optuna trial 685)
+2025-12-07T15:27:31 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 685: ACC=0.8129, AUC=0.8890 ± 0.0078, BalAcc=0.8129, Null_recall=0.8171, WT_recall=0.8086, Null_precision=0.8103, best_ACC=0.8140
+2025-12-07T15:27:31 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 686 of 725: trying C = 53.614 (Optuna trial 686)
+2025-12-07T15:28:43 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 686: ACC=0.8133, AUC=0.8890 ± 0.0078, BalAcc=0.8133, Null_recall=0.8175, WT_recall=0.8091, Null_precision=0.8108, best_ACC=0.8140
+2025-12-07T15:28:43 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 687 of 725: trying C = 127.016 (Optuna trial 687)
+2025-12-07T15:29:52 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 687: ACC=0.8128, AUC=0.8890 ± 0.0078, BalAcc=0.8128, Null_recall=0.8170, WT_recall=0.8086, Null_precision=0.8103, best_ACC=0.8140
+2025-12-07T15:29:52 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 688 of 725: trying C = 66.713 (Optuna trial 688)
+2025-12-07T15:31:02 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 688: ACC=0.8132, AUC=0.8890 ± 0.0078, BalAcc=0.8132, Null_recall=0.8174, WT_recall=0.8090, Null_precision=0.8107, best_ACC=0.8140
+2025-12-07T15:31:02 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 689 of 725: trying C = 114.974 (Optuna trial 689)
+2025-12-07T15:32:11 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 689: ACC=0.8129, AUC=0.8890 ± 0.0078, BalAcc=0.8129, Null_recall=0.8174, WT_recall=0.8085, Null_precision=0.8103, best_ACC=0.8140
+2025-12-07T15:32:11 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 690 of 725: trying C = 79.431 (Optuna trial 690)
+2025-12-07T15:33:20 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 690: ACC=0.8127, AUC=0.8890 ± 0.0078, BalAcc=0.8127, Null_recall=0.8166, WT_recall=0.8087, Null_precision=0.8103, best_ACC=0.8140
+2025-12-07T15:33:20 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 691 of 725: trying C = 60.832 (Optuna trial 691)
+2025-12-07T15:34:27 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 691: ACC=0.8136, AUC=0.8890 ± 0.0078, BalAcc=0.8136, Null_recall=0.8173, WT_recall=0.8098, Null_precision=0.8114, best_ACC=0.8140
+2025-12-07T15:34:27 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 692 of 725: trying C = 85.599 (Optuna trial 692)
+2025-12-07T15:35:35 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 692: ACC=0.8138, AUC=0.8890 ± 0.0078, BalAcc=0.8138, Null_recall=0.8186, WT_recall=0.8090, Null_precision=0.8109, best_ACC=0.8140
+2025-12-07T15:35:35 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 693 of 725: trying C = 86.190 (Optuna trial 693)
+2025-12-07T15:36:47 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 693: ACC=0.8129, AUC=0.8890 ± 0.0077, BalAcc=0.8129, Null_recall=0.8169, WT_recall=0.8090, Null_precision=0.8106, best_ACC=0.8140
+2025-12-07T15:36:47 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 694 of 725: trying C = 94.142 (Optuna trial 694)
+2025-12-07T15:38:04 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 694: ACC=0.8127, AUC=0.8890 ± 0.0078, BalAcc=0.8127, Null_recall=0.8166, WT_recall=0.8087, Null_precision=0.8103, best_ACC=0.8140
+2025-12-07T15:38:04 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 695 of 725: trying C = 75.250 (Optuna trial 695)
+2025-12-07T15:39:15 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 695: ACC=0.8129, AUC=0.8890 ± 0.0079, BalAcc=0.8129, Null_recall=0.8170, WT_recall=0.8089, Null_precision=0.8105, best_ACC=0.8140
+2025-12-07T15:39:15 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 696 of 725: trying C = 86.719 (Optuna trial 696)
+2025-12-07T15:40:33 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 696: ACC=0.8129, AUC=0.8890 ± 0.0078, BalAcc=0.8129, Null_recall=0.8165, WT_recall=0.8092, Null_precision=0.8107, best_ACC=0.8140
+2025-12-07T15:40:33 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 697 of 725: trying C = 90.854 (Optuna trial 697)
+2025-12-07T15:41:56 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 697: ACC=0.8128, AUC=0.8890 ± 0.0078, BalAcc=0.8128, Null_recall=0.8170, WT_recall=0.8086, Null_precision=0.8103, best_ACC=0.8140
+2025-12-07T15:41:56 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 698 of 725: trying C = 81.527 (Optuna trial 698)
+2025-12-07T15:43:06 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 698: ACC=0.8134, AUC=0.8890 ± 0.0078, BalAcc=0.8134, Null_recall=0.8170, WT_recall=0.8097, Null_precision=0.8112, best_ACC=0.8140
+2025-12-07T15:43:06 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 699 of 725: trying C = 88.791 (Optuna trial 699)
+2025-12-07T15:44:36 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 699: ACC=0.8132, AUC=0.8889 ± 0.0079, BalAcc=0.8132, Null_recall=0.8174, WT_recall=0.8090, Null_precision=0.8107, best_ACC=0.8140
+2025-12-07T15:44:36 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 700 of 725: trying C = 84.660 (Optuna trial 700)
+2025-12-07T15:46:04 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 700: ACC=0.8129, AUC=0.8890 ± 0.0078, BalAcc=0.8129, Null_recall=0.8171, WT_recall=0.8087, Null_precision=0.8104, best_ACC=0.8140
+2025-12-07T15:46:04 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 701 of 725: trying C = 94.278 (Optuna trial 701)
+2025-12-07T15:47:28 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 701: ACC=0.8129, AUC=0.8890 ± 0.0078, BalAcc=0.8129, Null_recall=0.8173, WT_recall=0.8086, Null_precision=0.8104, best_ACC=0.8140
+2025-12-07T15:47:28 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 702 of 725: trying C = 78.357 (Optuna trial 702)
+2025-12-07T15:48:56 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 702: ACC=0.8124, AUC=0.8889 ± 0.0078, BalAcc=0.8124, Null_recall=0.8164, WT_recall=0.8084, Null_precision=0.8100, best_ACC=0.8140
+2025-12-07T15:48:57 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 703 of 725: trying C = 96.403 (Optuna trial 703)
+2025-12-07T15:50:26 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 703: ACC=0.8127, AUC=0.8890 ± 0.0078, BalAcc=0.8127, Null_recall=0.8173, WT_recall=0.8082, Null_precision=0.8101, best_ACC=0.8140
+2025-12-07T15:50:26 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 704 of 725: trying C = 81.719 (Optuna trial 704)
+2025-12-07T15:51:48 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 704: ACC=0.8137, AUC=0.8890 ± 0.0078, BalAcc=0.8137, Null_recall=0.8182, WT_recall=0.8091, Null_precision=0.8109, best_ACC=0.8140
+2025-12-07T15:51:48 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 705 of 725: trying C = 86.277 (Optuna trial 705)
+2025-12-07T15:52:52 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 705: ACC=0.8130, AUC=0.8890 ± 0.0078, BalAcc=0.8130, Null_recall=0.8173, WT_recall=0.8087, Null_precision=0.8105, best_ACC=0.8140
+2025-12-07T15:52:52 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 706 of 725: trying C = 81.078 (Optuna trial 706)
+2025-12-07T15:53:55 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 706: ACC=0.8127, AUC=0.8890 ± 0.0079, BalAcc=0.8127, Null_recall=0.8169, WT_recall=0.8086, Null_precision=0.8103, best_ACC=0.8140
+2025-12-07T15:53:55 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 707 of 725: trying C = 76.057 (Optuna trial 707)
+2025-12-07T15:54:57 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 707: ACC=0.8127, AUC=0.8890 ± 0.0078, BalAcc=0.8127, Null_recall=0.8170, WT_recall=0.8084, Null_precision=0.8101, best_ACC=0.8140
+2025-12-07T15:54:57 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 708 of 725: trying C = 82.851 (Optuna trial 708)
+2025-12-07T15:56:03 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 708: ACC=0.8129, AUC=0.8889 ± 0.0078, BalAcc=0.8129, Null_recall=0.8168, WT_recall=0.8091, Null_precision=0.8107, best_ACC=0.8140
+2025-12-07T15:56:03 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 709 of 725: trying C = 78.466 (Optuna trial 709)
+2025-12-07T15:56:47 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 709: ACC=0.8129, AUC=0.8890 ± 0.0078, BalAcc=0.8129, Null_recall=0.8173, WT_recall=0.8085, Null_precision=0.8103, best_ACC=0.8140
+2025-12-07T15:56:47 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 710 of 725: trying C = 71.565 (Optuna trial 710)
+2025-12-07T15:57:32 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 710: ACC=0.8130, AUC=0.8890 ± 0.0078, BalAcc=0.8130, Null_recall=0.8174, WT_recall=0.8086, Null_precision=0.8104, best_ACC=0.8140
+2025-12-07T15:57:32 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 711 of 725: trying C = 88.984 (Optuna trial 711)
+2025-12-07T15:58:13 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 711: ACC=0.8129, AUC=0.8889 ± 0.0078, BalAcc=0.8129, Null_recall=0.8175, WT_recall=0.8084, Null_precision=0.8102, best_ACC=0.8140
+2025-12-07T15:58:13 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 712 of 725: trying C = 83.330 (Optuna trial 712)
+2025-12-07T15:58:53 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 712: ACC=0.8128, AUC=0.8889 ± 0.0077, BalAcc=0.8128, Null_recall=0.8169, WT_recall=0.8087, Null_precision=0.8104, best_ACC=0.8140
+2025-12-07T15:58:54 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 713 of 725: trying C = 80.185 (Optuna trial 713)
+2025-12-07T15:59:35 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 713: ACC=0.8133, AUC=0.8890 ± 0.0079, BalAcc=0.8133, Null_recall=0.8178, WT_recall=0.8089, Null_precision=0.8106, best_ACC=0.8140
+2025-12-07T15:59:35 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 714 of 725: trying C = 74.218 (Optuna trial 714)
+2025-12-07T16:00:22 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 714: ACC=0.8132, AUC=0.8890 ± 0.0078, BalAcc=0.8132, Null_recall=0.8173, WT_recall=0.8092, Null_precision=0.8108, best_ACC=0.8140
+2025-12-07T16:00:22 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 715 of 725: trying C = 89.958 (Optuna trial 715)
+2025-12-07T16:01:15 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 715: ACC=0.8127, AUC=0.8891 ± 0.0078, BalAcc=0.8127, Null_recall=0.8171, WT_recall=0.8084, Null_precision=0.8101, best_ACC=0.8140
+2025-12-07T16:01:15 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 716 of 725: trying C = 86.762 (Optuna trial 716)
+2025-12-07T16:02:10 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 716: ACC=0.8129, AUC=0.8890 ± 0.0079, BalAcc=0.8129, Null_recall=0.8171, WT_recall=0.8086, Null_precision=0.8103, best_ACC=0.8140
+2025-12-07T16:02:10 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 717 of 725: trying C = 102.433 (Optuna trial 717)
+2025-12-07T16:02:58 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 717: ACC=0.8127, AUC=0.8890 ± 0.0078, BalAcc=0.8127, Null_recall=0.8171, WT_recall=0.8082, Null_precision=0.8100, best_ACC=0.8140
+2025-12-07T16:02:59 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 718 of 725: trying C = 83.362 (Optuna trial 718)
+2025-12-07T16:03:48 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 718: ACC=0.8127, AUC=0.8890 ± 0.0078, BalAcc=0.8127, Null_recall=0.8160, WT_recall=0.8093, Null_precision=0.8107, best_ACC=0.8140
+2025-12-07T16:03:48 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 719 of 725: trying C = 68.686 (Optuna trial 719)
+2025-12-07T16:04:30 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 719: ACC=0.8129, AUC=0.8890 ± 0.0078, BalAcc=0.8129, Null_recall=0.8170, WT_recall=0.8089, Null_precision=0.8105, best_ACC=0.8140
+2025-12-07T16:04:30 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 720 of 725: trying C = 78.793 (Optuna trial 720)
+2025-12-07T16:05:09 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 720: ACC=0.8135, AUC=0.8890 ± 0.0078, BalAcc=0.8135, Null_recall=0.8182, WT_recall=0.8087, Null_precision=0.8106, best_ACC=0.8140
+2025-12-07T16:05:09 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 721 of 725: trying C = 49.335 (Optuna trial 721)
+2025-12-07T16:05:49 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 721: ACC=0.8130, AUC=0.8890 ± 0.0078, BalAcc=0.8130, Null_recall=0.8169, WT_recall=0.8091, Null_precision=0.8107, best_ACC=0.8140
+2025-12-07T16:05:49 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 722 of 725: trying C = 119.581 (Optuna trial 722)
+2025-12-07T16:06:30 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 722: ACC=0.8137, AUC=0.8890 ± 0.0078, BalAcc=0.8137, Null_recall=0.8179, WT_recall=0.8095, Null_precision=0.8112, best_ACC=0.8140
+2025-12-07T16:06:30 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 723 of 725: trying C = 120.884 (Optuna trial 723)
+2025-12-07T16:07:13 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 723: ACC=0.8134, AUC=0.8890 ± 0.0078, BalAcc=0.8134, Null_recall=0.8175, WT_recall=0.8092, Null_precision=0.8109, best_ACC=0.8140
+2025-12-07T16:07:13 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 724 of 725: trying C = 115.043 (Optuna trial 724)
+2025-12-07T16:07:55 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 724: ACC=0.8132, AUC=0.8890 ± 0.0078, BalAcc=0.8132, Null_recall=0.8176, WT_recall=0.8087, Null_precision=0.8105, best_ACC=0.8140
+2025-12-07T16:07:55 [train_12_08_16_45_logreg_train] INFO: [INFO] Iteration 725 of 725: trying C = 124.653 (Optuna trial 725)
+2025-12-07T16:08:41 [train_12_08_16_45_logreg_train] INFO: [INFO] Completed Optuna trial 725: ACC=0.8131, AUC=0.8890 ± 0.0078, BalAcc=0.8131, Null_recall=0.8169, WT_recall=0.8092, Null_precision=0.8108, best_ACC=0.8140
+2025-12-07T16:08:41 [train_12_08_16_45_logreg_train] INFO: Best average validation accuracy (all completed trials) = 0.8140
+2025-12-07T16:08:41 [train_12_08_16_45_logreg_train] INFO: Best hyperparameters: {'C': 112.74391602473206}

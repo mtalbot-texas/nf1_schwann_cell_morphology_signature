@@ -1,0 +1,3 @@
+2025-12-07T17:10:23 [main_figure_3_12_07_17_06_randomforest_main_figure_3] INFO: Initialized R logger and export_figure3_panels utility for main_figure_3. 
+2025-12-07T17:10:23 [main_figure_3_12_07_17_06_randomforest_main_figure_3] INFO: Logging to file: logs/log_main_figure_3_12_07_17_06_randomforest.log 
+2025-12-07T17:36:52 [main_figure_3_12_07_17_06_randomforest_main_figure_3] INFO: figure3_panel_export_file= panel_exports/figure3_panels_main_figure_3_12_07_17_06_randomforest.json 
