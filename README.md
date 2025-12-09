@@ -21,15 +21,25 @@ The initial goal of this fork is to test whether we can improve upon the baselin
 * Adding and evaluating a Random Forest classifier as part of the capstone project for my AI in Healthcare course.  
 * Beginning to experiment with XGBoost as an additional nonlinear baseline for NF1 genotype classification.
 
-In the current set of experiments, XGBoost achieves a small accuracy gain over logistic regression on the original test plates, while logistic regression remains the most stable model when I compare performance across plates.
+In the current set of experiments, XGBoost achieves a small accuracy gain over logistic regression on the original test plates but shows overfitting, random forest does not outperform logistic regression, and logistic regression remains the strongest and most stable baseline across plates and institutions.
 
 ### Status
 
 * Forked the original repository and reproduced the baseline setup where possible.  
+* Added Optuna based hyperparameter tuning for logistic regression, random forest, and XGBoost.  
 * Implemented a Random Forest classifier and compared performance against logistic regression.  
 * Integrated XGBoost models for further comparison on the original train, validation, and test splits.  
-* Evaluated all three models on a held out Plate 6 to obtain an initial view of cross plate generalization.  
-* Planning a potential extension of this work into a Master's thesis project (Fall 2026 through Spring 2027).
+* Evaluated all three models on a held out Plate 6 with cells from two institutions (MGH and iNFixion) to assess cross plate and cross institution generalization.  
+* Observed that all models perform near chance on MGH while logistic regression shows the best but still limited performance at iNFixion, suggesting that plate and institution effects are a key bottleneck.  
+* Planning a potential extension of this work into a Master's thesis project (Fall 2026 through Spring 2027), with a focus on better handling plate and institution level artifacts.
+
+A detailed write up of these experiments is available in my Fall 2025 AI in Healthcare final paper: [Beyond Logistic Regression: Random Forests, XGBoost, and Optuna for NF1 Cell Classification](TalbotNF1CellClssificationFinal.pdf).
+
+### Future work
+
+* Explore approaches to reduce plate and institution level artifacts, including batch correction methods, domain adaptation, and experimental designs that mix plates and institutions during training.  
+* Extend evaluation to additional Cell Painting datasets and alternative NF1 related assays, with a focus on more robust cross plate and cross institution generalization metrics.  
+* Improve model interpretability by analyzing feature importance, linking morphology features to NF1 biology, and summarizing results in a way that is useful to collaborators in biology and medicine.
 
 ### Attribution and licensing
 
@@ -43,8 +53,8 @@ Please cite the original paper and repositories if you use this work.
 My additions are currently limited to:
 
 * New modeling scripts (for example Random Forest, XGBoost, and other alternative classifiers).  
-* Extended evaluation and visualization notebooks, including Optuna based hyperparameter analysis and generalizability checks on Plate 6.  
-* Documentation specific to my coursework and planned thesis exploration.
+* Extended evaluation and visualization notebooks, including Optuna based hyperparameter analysis, confusion matrices, and generalizability checks on Plate 6.  
+* Documentation specific to my coursework and planned thesis exploration, including the Fall 2025 AI in Healthcare final paper.
 
 
 # NF1 Schwann cell morphology signature
