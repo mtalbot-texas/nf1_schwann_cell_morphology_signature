@@ -4,13 +4,15 @@
 
 I am a part time M.S. student in Artificial Intelligence at the University of Texas at Austin. This repository is a fork and extension of the work by the original authors:
 
-> Way GP, Nelson CJ, et al. "A morphological signature for NF1 loss in human Schwann cells using Cell Painting."
+> Tomkinson J, Mattson C, et al. "High-content microscopy and machine learning characterize a cell morphology signature of NF1 genotype in Schwann cells."
 >
+> **Lead/first author:** Jenna Tomkinson 
 > Code: https://github.com/WayScience/nf1_schwann_cell_morphology_signature  
 > Data pipeline: https://github.com/WayScience/nf1_cellpainting_data  
-> Paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC12026412/  
-> Original Cell Painting datasets:  
-> https://figshare.com/projects/NF1_Schwann_Cell_Genotype_Cell_Painting_Assay/161620  
+> Paper (DOI): https://doi.org/10.1016/j.ghres.2025.100009  
+> Original Cell Painting datasets:
+> https://figshare.com/projects/NF1_Schwann_Cell_Genotype_Cell_Painting_Assay/161620
+
 
 All data collection, imaging, feature extraction (CellProfiler, CytoTable, pycytominer), and the original exploratory data analysis and modeling were designed and implemented by the authors of the above work. This fork builds on their open source analysis to explore additional classification approaches for NF1 genotype prediction from Cell Painting features.
 
