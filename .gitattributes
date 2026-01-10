@@ -7,3 +7,4 @@
 1.train_models/classify_genotypes/data/nf1_eval_data.parquet filter=lfs diff=lfs merge=lfs -text
 # Attempt to solve bug with the modified Git LFS pulled files
 *.parquet filter=lfs diff=lfs merge=lfs -text
+*.joblib filter=lfs diff=lfs merge=lfs -text
